@@ -1,0 +1,754 @@
+[
+  {
+    "id": "channa-argus",
+    "chineseName": "乌鳢",
+    "englishName": "Northern Snakehead",
+    "scientificName": "Channa argus",
+    "scientificAuthor": "Cantor, 1842",
+    "taxonomy": {
+      "order": "鲈形目",
+      "family": "鳢科",
+      "genus": "鳢属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 45,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖",
+        "伏击型"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "头部较尖长，近似蛇头，体色偏乌黑，背鳍前方隆起。俗名黑鱼、蛇头鱼、生鱼或乌鱼。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "乌黑色",
+        "暗褐色"
+      ],
+      "patterns": [
+        "不规则斑块",
+        "水平纵带"
+      ],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "圆形",
+      "keyFeatures": [
+        "头部较尖长近似蛇头",
+        "斑纹呈“七星”状",
+        "体侧有明显呈“八八”字形排列的黑色条纹"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "全国广泛分布",
+        "新疆"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "除青藏高原及西北地区外，全国各其他水系均有分布，在新疆是入侵物种。"
+    },
+    "habitat": {
+      "environment": [
+        "河流",
+        "湖泊",
+        "水库",
+        "湿地"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [
+        "淤泥底",
+        "水草区"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "成鱼常栖息于水草丛生、淤泥底质的静水或缓流环境。"
+    },
+    "ecology": {
+      "feedingBehavior": "善于炸水",
+      "food": [
+        "鱼类",
+        "虾类"
+      ],
+      "behavior": "底栖肉食性鱼类，有护幼习性。",
+      "reproduction": "具有护幼习性。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "冬季停止进食。",
+      "specialRequirements": [
+        "需要水草一类的隐蔽物"
+      ],
+      "warning": "适应性极强，水质要求不高。但绝对不要和鲶鱼混养，两者会打个你死我活；且成体达到45cm左右。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "rounded",
+      "patterns": [
+        "dark-spots",
+        "irregular-blotches"
+      ],
+      "regions": [
+        "yellow-river",
+        "yangtze-river",
+        "pearl-river",
+        "xinjiang"
+      ],
+      "keywords": [
+        "乌鳢",
+        "黑鱼",
+        "蛇头鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "/images/fish/channa-argus/adult.jpg",
+        "alt": "成年乌鳢的侧面照片，展示了其八八字形排列的黑色条纹",
+        "caption": "成年乌鳢",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "/images/fish/channa-argus/juvenile.jpg",
+          "alt": "乌鳢幼体的照片，成群游动，展现护幼行为",
+          "caption": "乌鳢幼体与亲鱼护幼",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "鳢属 Channa spp. 物种资料",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-07-23"
+      }
+    ],
+    "lastUpdated": "2026-07-23"
+  },
+  {
+    "id": "macropodus-chinensis",
+    "chineseName": "圆尾斗鱼",
+    "englishName": "Round-tailed Paradise Fish",
+    "scientificName": "Macropodus chinensis",
+    "scientificAuthor": "Bloch, 1790",
+    "taxonomy": {
+      "order": "攀鲈目",
+      "family": "丝足鲈科",
+      "genus": "斗鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性",
+        "肉食性"
+      ],
+      "activity": [
+        "中层",
+        "上层"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "上层",
+        "中层"
+      ]
+    },
+    "appearance": {
+      "summary": "拉丁名翻译过来是中华斗鱼。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "上位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "圆形",
+      "keyFeatures": [
+        "具有迷鳃"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "北京",
+        "天津",
+        "河北",
+        "河南",
+        "江苏"
+      ],
+      "riverSystems": [
+        "海河",
+        "黄河",
+        "淮河",
+        "长江水系"
+      ],
+      "globalRegions": [],
+      "description": "主要分布于海河、黄河、淮河及长江水系。"
+    },
+    "habitat": {
+      "environment": [
+        "河流",
+        "溪流",
+        "湿地"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [
+        "水草区"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "极低",
+      "description": "生活在各种淡水环境中，因具有迷鳃，能够耐受低氧环境。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "斗鱼属都有迷鳃，简单来说和上鰓器一样都是吸氧器，帮助存活的。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "同属鱼类（如叉尾斗鱼）会有同种争斗现象。该属全是耐活王。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "upper",
+      "barbels": false,
+      "tailShape": "rounded",
+      "patterns": [
+        "none"
+      ],
+      "regions": [
+        "yellow-river",
+        "yangtze-river"
+      ],
+      "keywords": [
+        "中华斗鱼",
+        "迷鳃"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "/images/fish/macropodus-chinensis/adult.jpg",
+        "alt": "成年圆尾斗鱼的照片",
+        "caption": "成年圆尾斗鱼",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "斗鱼属 Macropodus spp. 物种资料",
+        "url": "https://www.thepaper.cn/newsDetail_forward_7699677",
+        "organization": "澎湃新闻",
+        "accessDate": "2026-07-23"
+      }
+    ],
+    "lastUpdated": "2026-07-23"
+  },
+  {
+    "id": "barbodes-semifasciolatus",
+    "chineseName": "条纹小鲃",
+    "englishName": "Chinese Barb",
+    "scientificName": "Barbodes semifasciolatus",
+    "scientificAuthor": "Günther, 1868",
+    "taxonomy": {
+      "order": "鲤形目",
+      "family": "鲤科",
+      "genus": "小鲃属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性",
+        "杂食性"
+      ],
+      "activity": [
+        "群游"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "中层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "身体偏长，两侧扁平，头尖眼大，发色时腹部呈现荧光橙色，躯干呈现荧光绿色。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [
+        "荧光橙色",
+        "荧光绿色"
+      ],
+      "patterns": [
+        "垂直条纹"
+      ],
+      "mouthPosition": "端位",
+      "barbels": true,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "分叉形",
+      "keyFeatures": [
+        "嘴上有一对小胡须",
+        "体侧有7-10条斑纹，且比较碎"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "全国广泛分布",
+        "台湾"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "分布于中国绝大多数区域，也分布在台湾南部。"
+    },
+    "habitat": {
+      "environment": [
+        "河流",
+        "溪流"
+      ],
+      "waterFlow": [
+        "流水",
+        "缓流"
+      ],
+      "bottomType": [
+        "沙底",
+        "石底"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "生活在溪流底栖环境。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [
+        "小型鱼类",
+        "黑壳虾"
+      ],
+      "behavior": "具有肉食性，吃得多，拉得多，被称为造粪机器。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "吃得多，拉得多。",
+      "specialRequirements": [],
+      "warning": "饲养难度极低，三无缸也可以养好且容易发色。因属肉食性，对黑壳虾和小型鱼类有合体记录，建议与体型相当的鱼类混养；若与其他对水质敏感的鱼类混养，必须装过滤器。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "terminal",
+      "barbels": true,
+      "tailShape": "forked",
+      "patterns": [
+        "vertical-bars"
+      ],
+      "regions": [
+        "yangtze-river",
+        "pearl-river",
+        "coastal"
+      ],
+      "keywords": [
+        "条纹小鲃",
+        "发色"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "/images/fish/barbodes-semifasciolatus/adult.jpg",
+        "alt": "成年条纹小鲃的侧面照片，展示了碎裂的垂直条纹",
+        "caption": "成年条纹小鲃",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "鲃亚科 Odontobutidae 物种资料",
+        "url": "https://portal.taibif.tw/article/4111/",
+        "organization": "网络资料",
+        "accessDate": "2026-07-23"
+      }
+    ],
+    "lastUpdated": "2026-07-23"
+  },
+  {
+    "id": "esox-lucius",
+    "chineseName": "白斑狗鱼",
+    "englishName": "Northern Pike",
+    "scientificName": "Esox lucius",
+    "scientificAuthor": "Linnaeus, 1758",
+    "taxonomy": {
+      "order": "狗鱼目",
+      "family": "狗鱼科",
+      "genus": "狗鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "伏击型"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "中层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "身体细长，灰绿色或暗褐色的侧面布满浅色斑点。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "灰绿色",
+        "暗褐色"
+      ],
+      "patterns": [
+        "浅色斑点"
+      ],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "分叉形",
+      "keyFeatures": [
+        "身体细长",
+        "吻部较长",
+        "侧面具有浅色斑点"
+      ],
+      "sexualDifferences": "雌性生长速度通常高于雄性，成年雌性个体更大。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "新疆"
+      ],
+      "riverSystems": [
+        "额尔齐斯河流域"
+      ],
+      "globalRegions": [
+        "欧洲",
+        "俄罗斯",
+        "北美洲北部"
+      ],
+      "description": "在中国主要分布于新疆额尔齐斯河流域，全球广泛分布于北半球寒冷和温带水域。"
+    },
+    "habitat": {
+      "environment": [
+        "湖泊",
+        "河流"
+      ],
+      "waterFlow": [
+        "缓流",
+        "流水"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "偏好溶氧量较高的水体",
+      "description": "典型冷水性鱼类，偏好水质清澈、溶氧量高且流动性良好的水体。"
+    },
+    "ecology": {
+      "feedingBehavior": "伏击其他鱼类",
+      "food": [
+        "小型鱼类"
+      ],
+      "behavior": "属于伏击型捕食者，也可能出现同类相食。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "困难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [
+        "需要较大的活动空间",
+        "需要高溶氧水体"
+      ],
+      "warning": "不建议新手饲养。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "forked",
+      "patterns": [
+        "light-spots"
+      ],
+      "regions": [
+        "xinjiang"
+      ],
+      "keywords": [
+        "冷水鱼",
+        "细长",
+        "浅色斑点",
+        "伏击型"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "/images/fish/esox-lucius/adult.jpg",
+        "alt": "成年白斑狗鱼的侧面照片",
+        "caption": "成年白斑狗鱼",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "/images/fish/esox-lucius/juvenile.jpg",
+          "alt": "白斑狗鱼幼体的侧面照片",
+          "caption": "幼年白斑狗鱼",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "/images/fish/esox-lucius/habitat.jpg",
+          "alt": "白斑狗鱼生活的冷水湖泊环境",
+          "caption": "典型栖息环境",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "FishBase: Esox lucius",
+        "url": "",
+        "organization": "FishBase",
+        "accessDate": "2026-07-21"
+      }
+    ],
+    "lastUpdated": "2026-07-21"
+  },
+  {
+    "id": "siniperca-chuatsi",
+    "chineseName": "翘嘴鳜",
+    "englishName": "Mandarin Fish",
+    "scientificName": "Siniperca chuatsi",
+    "scientificAuthor": "Basilewsky",
+    "taxonomy": {
+      "order": "鲈形目",
+      "family": "鳜科",
+      "genus": "鳜属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 50,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "伏击型"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "常见的食用鱼，俗名鳌花、季花鱼、桂花鱼。存在一种被称为“红纹鳜”的基因表型变异，并非单独物种。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [
+        "黄褐色",
+        "银灰色"
+      ],
+      "patterns": [
+        "不规则斑块"
+      ],
+      "mouthPosition": "上位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "圆形",
+      "keyFeatures": [
+        "体侧具有不规则深色斑块",
+        "背鳍发达且带有硬棘"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "黑龙江",
+        "广东",
+        "全国广泛分布"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "分布区域极其广泛，上至黑河下至深圳基本都有分布。"
+    },
+    "habitat": {
+      "environment": [
+        "河流",
+        "溪流"
+      ],
+      "waterFlow": [
+        "流水"
+      ],
+      "bottomType": [
+        "水草区",
+        "石底"
+      ],
+      "temperatureMinC": 20,
+      "temperatureMaxC": 27,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "偏好溶氧量较高的水体",
+      "description": "常见于大型溪流中，属于高氧鱼类，依赖水草或造景石提供隐蔽。"
+    },
+    "ecology": {
+      "feedingBehavior": "伏击猎物",
+      "food": [
+        "鲮",
+        "䱗"
+      ],
+      "behavior": "属于大型溪流掠食性鱼类，是典型的伏击性鱼类。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "中等",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "20-27",
+      "feedingAdvice": "推荐喂食用鲮、䱗等活体小鱼。",
+      "specialRequirements": [
+        "水温保持在20-27℃",
+        "提供水草或造景石作为伏击点"
+      ],
+      "warning": "不适合新手饲养，需注意水质和温度的稳定。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "upper",
+      "barbels": false,
+      "tailShape": "rounded",
+      "patterns": [
+        "irregular-blotches"
+      ],
+      "regions": [
+        "heihe-river",
+        "yangtze-river",
+        "pearl-river",
+        "coastal"
+      ],
+      "keywords": [
+        "翘嘴鳜",
+        "鳌花",
+        "季花鱼",
+        "桂花鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "/images/fish/siniperca-chuatsi/adult.jpg",
+        "alt": "成年翘嘴鳜的侧面照片，展示了其不规则深色斑块",
+        "caption": "成年翘嘴鳜",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "/images/fish/siniperca-chuatsi/juvenile.jpg",
+          "alt": "翘嘴鳜幼体的侧面照片",
+          "caption": "幼年翘嘴鳜",
+          "source": "",
+          "license": ""
+        }
+      ]
+    }
+  }
+]
