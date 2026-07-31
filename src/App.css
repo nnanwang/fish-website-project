@@ -1,0 +1,268 @@
+/* :root stores global font choices, colors, and reusable CSS variables. */
+:root {
+  /* Use common local Chinese fonts without downloading a web font. */
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  /* Set the default text color. */
+  color: #17202a;
+  /* Set the default page background color. */
+  background: #f4f0e7;
+  /* Prevent the browser from creating artificial font styles. */
+  font-synthesis: none;
+  /* Define the darkest ocean color. */
+  --deep-navy: #061c2c;
+  /* Define a second dark blue for labels and placeholders. */
+  --navy: #082f49;
+  /* Define the main ocean blue. */
+  --ocean: #07578f;
+  /* Define a brighter blue for gradients. */
+  --ocean-light: #0b74b8;
+  /* Define the light aqua focus and accent color. */
+  --aqua: #78c6d0;
+  /* Define the warm content background. */
+  --cream: #f4f0e7;
+  /* Define reusable white. */
+  --white: #ffffff;
+  /* Define dark body text. */
+  --text-dark: #17202a;
+  /* Define quieter secondary text. */
+  --text-muted: #596673;
+}
+
+/* Apply border-box sizing so padding stays inside an element's width. */
+* {
+  box-sizing: border-box;
+}
+
+/* Enable smooth movement for links such as #explore and #about. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove the browser's default body margin and set the page background. */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+/* Let links inherit the surrounding text color by default. */
+a {
+  color: inherit;
+}
+
+/* Show a clear keyboard focus ring for accessibility. */
+a:focus-visible {
+  outline: 3px solid var(--aqua);
+  outline-offset: 4px;
+}
+
+/* Use a serif font for major headings to create an editorial style. */
+h1,
+h2,
+h3 {
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-weight: 500;
+}
+
+/* Place the Navbar over the top of the Hero image. */
+.navbar {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: var(--white);
+  background: rgba(3, 22, 38, 0.72);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Center the Navbar content and separate the logo from the links. */
+.navbar nav {
+  width: min(1180px, calc(100% - 40px));
+  min-height: 78px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Stack the Chinese name above the English subtitle. */
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+/* Style the main Chinese logo text. */
+.logo strong {
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* Style the smaller English logo text. */
+.logo small {
+  margin-top: 3px;
+  color: #c7e3ed;
+  font-size: 0.62rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+/* Place the main navigation links in one row. */
+.nav-links {
+  display: flex;
+  gap: 1.7rem;
+}
+
+/* Remove default link underlines and create a comfortable click area. */
+.nav-links a {
+  padding: 0.5rem 0;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+/* Change navigation color when the mouse is over a link. */
+.nav-links a:hover {
+  color: #bce7ee;
+}
+
+
+/* Make the Hero full width with a large viewport-based height. */
+.hero {
+  width: 100%;
+  min-height: 78vh;
+  background: var(--deep-navy);
+}
+
+/* Create the horizontal scrolling container for the Hero slides. */
+.hero-gallery {
+  display: flex;
+  min-height: 78vh;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--aqua) var(--deep-navy);
+}
+
+/* Make each Hero slide fill the browser width and snap into place. */
+.hero-slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 100%;
+  min-height: 78vh;
+  margin: 0;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+/* Stretch each Hero image over its entire slide. */
+.hero-slide img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Add dark gradients so white text remains readable on any image. */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(3, 22, 38, 0.94), rgba(3, 22, 38, 0.56) 58%, rgba(3, 22, 38, 0.25)),
+    linear-gradient(0deg, rgba(3, 22, 38, 0.35), transparent 55%);
+}
+
+/* Position and vertically center the Hero text above the image. */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1180px, calc(100% - 40px));
+  min-height: 78vh;
+  margin: 0 auto;
+  padding: 118px 0 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--white);
+}
+
+/* Style the small English label above the main heading. */
+.hero-eyebrow {
+  margin: 0 0 18px;
+  color: #bce7ee;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+/* Create the large responsive Hero title. */
+.hero-content h1 {
+  max-width: 820px;
+  margin: 0 0 22px;
+  font-size: clamp(2.9rem, 6.4vw, 5.4rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+/* Put the second title line on a separate, slightly smaller line. */
+.hero-content h1 span {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.62em;
+  color: #e5f4f5;
+}
+
+/* Limit the introduction width so long Chinese text stays readable. */
+.hero-intro {
+  max-width: 650px;
+  margin: 0 0 28px;
+  color: #e2eef2;
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+/* Place buttons in a row and allow them to wrap on smaller screens. */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Give all Hero links a shared outlined-button appearance. */
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 4px;
+  color: var(--white);
+  background: rgba(6, 28, 44, 0.28);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+/* Add a simple hover feedback color. */
+.hero-actions a:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+/* Make the first action button visually stronger. */
+.hero-actions .button-primary {
+  color: var(--deep-navy);
+  background: var(--cream);
+  border-color: var(--cream);
+}
+
+/* Brighten the main action button on hover. */
+.hero-actions .button-primary:hover {
+  background: var(--white);
+}

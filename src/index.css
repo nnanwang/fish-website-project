@@ -1,0 +1,131 @@
+/* :root stores global font choices, colors, and reusable CSS variables. */
+:root {
+  /* Use common local Chinese fonts without downloading a web font. */
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  /* Set the default text color. */
+  color: #17202a;
+  /* Set the default page background color. */
+  background: #f4f0e7;
+  /* Prevent the browser from creating artificial font styles. */
+  font-synthesis: none;
+  /* Define the darkest ocean color. */
+  --deep-navy: #061c2c;
+  /* Define a second dark blue for labels and placeholders. */
+  --navy: #082f49;
+  /* Define the main ocean blue. */
+  --ocean: #07578f;
+  /* Define a brighter blue for gradients. */
+  --ocean-light: #0b74b8;
+  /* Define the light aqua focus and accent color. */
+  --aqua: #78c6d0;
+  /* Define the warm content background. */
+  --cream: #f4f0e7;
+  /* Define reusable white. */
+  --white: #ffffff;
+  /* Define dark body text. */
+  --text-dark: #17202a;
+  /* Define quieter secondary text. */
+  --text-muted: #596673;
+}
+
+/* Apply border-box sizing so padding stays inside an element's width. */
+* {
+  box-sizing: border-box;
+}
+
+/* Enable smooth movement for links such as #explore and #about. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove the browser's default body margin and set the page background. */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+/* Let links inherit the surrounding text color by default. */
+a {
+  color: inherit;
+}
+
+/* Show a clear keyboard focus ring for accessibility. */
+a:focus-visible {
+  outline: 3px solid var(--aqua);
+  outline-offset: 4px;
+}
+
+/* Use a serif font for major headings to create an editorial style. */
+h1,
+h2,
+h3 {
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-weight: 500;
+}
+
+/* Place the Navbar over the top of the Hero image. */
+.navbar {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: var(--white);
+  background: rgba(3, 22, 38, 0.72);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Center the Navbar content and separate the logo from the links. */
+.navbar nav {
+  width: min(1180px, calc(100% - 40px));
+  min-height: 78px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Stack the Chinese name above the English subtitle. */
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+/* Style the main Chinese logo text. */
+.logo strong {
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* Style the smaller English logo text. */
+.logo small {
+  margin-top: 3px;
+  color: #c7e3ed;
+  font-size: 0.62rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+/* Place the main navigation links in one row. */
+.nav-links {
+  display: flex;
+  gap: 1.7rem;
+}
+
+/* Remove default link underlines and create a comfortable click area. */
+.nav-links a {
+  padding: 0.5rem 0;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+/* Change navigation color when the mouse is over a link. */
+.nav-links a:hover {
+  color: #bce7ee;
+}
