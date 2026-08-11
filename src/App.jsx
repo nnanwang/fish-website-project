@@ -5,6 +5,10 @@ import './App.css'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx"
 
+import FishDatabase from "./components/FishDatabase.jsx"
+
+import Footer from "./components/Footer.jsx"
+
 function App() {
 
   return (
@@ -13,7 +17,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <FishDatabase />
       </main>
+
+      <Footer />
 
     </>
   )

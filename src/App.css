@@ -18,6 +18,8 @@
   --ocean-light: #0b74b8;
   /* Define the light aqua focus and accent color. */
   --aqua: #78c6d0;
+
+  --light-blue: #dff0fd;
   /* Define the warm content background. */
   --cream: #f4f0e7;
   /* Define reusable white. */
@@ -43,7 +45,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: var(--cream);
+  background: var(--navy);
 }
 
 /* Let links inherit the surrounding text color by default. */
@@ -51,8 +53,18 @@ a {
   color: inherit;
 }
 
+/* Use the same readable font inside form controls. */
+button,
+input,
+select {
+  font: inherit;
+}
+
 /* Show a clear keyboard focus ring for accessibility. */
-a:focus-visible {
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
   outline: 3px solid var(--aqua);
   outline-offset: 4px;
 }
@@ -129,7 +141,6 @@ h3 {
 .nav-links a:hover {
   color: #bce7ee;
 }
-
 
 /* Make the Hero full width with a large viewport-based height. */
 .hero {
@@ -265,4 +276,718 @@ h3 {
 /* Brighten the main action button on hover. */
 .hero-actions .button-primary:hover {
   background: var(--white);
+}
+
+/* Center the database section and add generous vertical spacing. */
+.fish-database {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 96px 0 108px;
+}
+
+/* Keep the section introduction from becoming too wide. */
+.section-heading {
+  max-width: 720px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+/* Style the small English section label. */
+.eyebrow {
+  margin: 0 0 10px;
+  color: #9edce4;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+/* Style the main fish section heading. */
+.section-heading h2 {
+  margin: 0 0 14px;
+  color: var(--white);
+  font-size: clamp(2.25rem, 5vw, 3.6rem);
+  letter-spacing: -0.025em;
+}
+
+/* Style the explanatory paragraph below the section heading. */
+.section-heading > p:last-child {
+  margin: 0;
+  color: #c7dce4;
+  line-height: 1.75;
+}
+
+/* Place the name search and submit button in one full-width row. */
+.database-search {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) auto;
+  gap: 8px;
+  width: min(100%, 760px);
+  margin: 0 auto 20px;
+}
+
+.database-search__input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid rgba(158, 220, 228, 0.55);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+}
+
+.database-search__icon {
+  flex-shrink: 0;
+  color: var(--ocean);
+  font-size: 1rem;
+}
+
+.database-search input {
+  width: 100%;
+  min-width: 0;
+  min-height: 38px;
+  font-size: 0.86rem;
+  border: 0;
+  outline: 0;
+  color: var(--text-dark);
+  background: transparent;
+}
+
+.database-search input::placeholder {
+  color: #667784;
+}
+
+.database-search__button {
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid var(--ocean-light);
+  border-radius: 8px;
+  color: var(--white);
+  background: var(--ocean);
+  font-weight: 700;
+  font-size: 0.84rem;
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.database-search__button:hover {
+  background: var(--ocean-light);
+  transform: translateY(-2px);
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.22);
+}
+
+.database-search__input:focus-within {
+  border-color: var(--aqua);
+  box-shadow: 0 0 0 3px rgba(120, 198, 208, 0.28);
+}
+
+/* Keep all family choices visible instead of hiding them in a menu. */
+.family-filter {
+  margin-bottom: 18px;
+}
+
+.family-filter__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Family buttons begin as compact outlines on the navy background. */
+.family-button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 138px;
+  min-height: 40px;
+  padding: 5px 9px;
+  border: 1px solid rgba(158, 220, 228, 0.72);
+  border-radius: 6px;
+  color: #e2f1f4;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 180ms ease, border-color 180ms ease,
+    background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.family-button:hover {
+  transform: translateY(-2px);
+  color: var(--white);
+  background: var(--ocean-light);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Keep each decorative symbol as a line icon rather than a filled badge. */
+.family-button__mark {
+  display: grid;
+  place-items: center;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  color: var(--aqua);
+  background: transparent;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.family-button__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.family-button__text strong {
+  font-size: 0.8rem;
+}
+
+.family-button.active {
+  color: var(--white);
+  background: var(--ocean);
+}
+
+.family-button.active .family-button__mark {
+  color: var(--white);
+  background: transparent;
+}
+
+/* Add a checkmark so selection is not communicated by color alone. */
+.family-button.active::after {
+  margin-left: auto;
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+/* Display only the useful region and body-shape filters. */
+.secondary-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  width: 100%;
+  margin: 16px auto 20px;
+  padding: 4px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.secondary-filter {
+  flex: 0 0 190px;
+}
+
+.secondary-filter select {
+  width: 100%;
+  min-height: 32px;
+  padding: 0 8px;
+  border: 1px solid rgba(120, 198, 208, 0.55);
+  border-radius: 6px;
+  color: var(--deep-navy);
+  background: var(--light-blue);
+  font-size: 0.78rem;
+}
+
+.clear-filters {
+  min-height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--aqua);
+  border-radius: 6px;
+  color: var(--white);
+  background: transparent;
+  font-weight: 700;
+  font-size: 0.76rem;
+  cursor: pointer;
+}
+
+.clear-filters:hover:not(:disabled) {
+  color: var(--deep-navy);
+  background: var(--aqua);
+}
+
+.clear-filters:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Show the live result count above the fish card grid. */
+.result-count {
+  margin: 0 0 24px;
+  color: #d8edf2;
+  font-weight: 700;
+}
+
+/* Replace an empty grid with a clear, centered message. */
+.empty-results {
+  padding: 64px 24px;
+  border: 1px solid #d7d1c4;
+  background: #fbfaf6;
+  text-align: center;
+}
+
+.empty-results h3 {
+  margin: 0 0 12px;
+  color: var(--deep-navy);
+  font-size: 1.8rem;
+}
+
+.empty-results p {
+  margin: 0 0 22px;
+  color: var(--text-muted);
+}
+
+.empty-results button {
+  min-height: 46px;
+  padding: 10px 18px;
+  border: 1px solid var(--ocean);
+  border-radius: 6px;
+  color: var(--white);
+  background: var(--ocean);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.empty-results button:hover {
+  background: var(--navy);
+}
+
+/* Display equal-height cards in a responsive grid. */
+.fish-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 26px;
+  padding: 12px 0 28px;
+}
+
+/* Build one equal-height card with a gentle hover transition. */
+.fish-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  border: 1px solid rgba(7, 87, 143, 0.16);
+  border-radius: 14px;
+  background: var(--cream);
+  box-shadow: 0 8px 20px rgba(6, 28, 44, 0.08);
+  transition: transform 220ms ease, box-shadow 220ms ease,
+    border-color 220ms ease;
+}
+
+/* Use the real family value as the dark ocean category strip. */
+.fish-card__category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 8px 16px;
+  color: var(--white);
+  background: var(--deep-navy);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+/* Center the complete source image on a pale ocean background. */
+.fish-card__image-area {
+  display: grid;
+  place-items: center;
+  height: 230px;
+  padding: 0;
+  overflow: hidden;
+  background: var(--light-blue);
+}
+
+/* Fill the full card width while keeping the image area at a fixed height. */
+.fish-card__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 280ms ease;
+}
+
+/* Raise only the hovered card without changing the grid layout. */
+.fish-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(11, 116, 184, 0.45);
+  box-shadow: 0 20px 42px rgba(6, 28, 44, 0.2);
+}
+
+/* Slightly enlarge only the image inside the hovered card. */
+.fish-card:hover .fish-card__image {
+  transform: scale(1.04);
+}
+
+/* Replace a missing or failed image without showing a broken-image icon. */
+.fish-card__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--ocean);
+  background: var(--light-blue);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Style the decorative water symbol in the placeholder. */
+.fish-card__placeholder > span {
+  margin-bottom: 8px;
+  color: var(--ocean-light);
+  font-size: 2rem;
+}
+
+/* Style the fish name inside the placeholder. */
+.fish-card__placeholder p {
+  margin: 0 0 4px;
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-size: 1.1rem;
+}
+
+/* Style the smaller placeholder explanation. */
+.fish-card__placeholder small {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* Let the centered text area grow so all cards remain equal height. */
+.fish-card__content {
+  flex: 1;
+  min-height: 190px;
+  padding: 18px 20px 20px;
+  background: var(--cream);
+  text-align: center;
+}
+
+/* Place the real water types above the fish names. */
+.fish-card__water-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+/* Give every water type the same compact pill shape. */
+.water-type-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 26px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* Use green-blue for freshwater without changing the JSON value. */
+.water-type-freshwater {
+  color: #155e4b;
+  background: #dff3e9;
+}
+
+/* Use pale ocean blue for saltwater and marine values. */
+.water-type-saltwater,
+.water-type-marine {
+  color: var(--deep-navy);
+  background: #dbeeff;
+}
+
+/* Use a warm neutral color for brackish water. */
+.water-type-brackish {
+  color: #70540b;
+  background: #f4e8bd;
+}
+
+/* Style the Chinese fish name as the card heading. */
+.fish-card__chinese-name {
+  margin: 0;
+  color: var(--deep-navy);
+  font-size: 1.55rem;
+  line-height: 1.3;
+}
+
+/* Style the English common name. */
+.fish-card__english-name {
+  margin: 7px 0 0;
+  color: var(--ocean);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Style the Latin scientific name. */
+.fish-card__scientific-name {
+  margin: 5px 0 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+/* Keep the full family and genus information at the card bottom. */
+.fish-card__footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 10px 18px;
+  border-top: 1px solid rgba(7, 87, 143, 0.14);
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 0.88rem;
+}
+
+.fish-card__footer strong {
+  color: var(--deep-navy);
+}
+
+/* Create the dark full-width Footer. */
+.site-footer {
+  padding: 58px max(20px, calc((100% - 1180px) / 2)) 24px;
+  color: var(--white);
+  background: var(--deep-navy);
+  border-top: 1px solid #17425b;
+}
+
+/* Separate the Footer description from the Footer navigation. */
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3rem;
+  padding-bottom: 42px;
+}
+
+/* Limit the width of the Footer description. */
+.footer-content > div {
+  max-width: 580px;
+}
+
+/* Style the Chinese Footer heading. */
+.footer-content h2 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+}
+
+/* Style the English Footer subtitle. */
+.footer-english {
+  margin: 0 0 18px;
+  color: #9bcbd4;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Style the short website description in the Footer. */
+.footer-description {
+  margin: 0;
+  color: #cadce2;
+  line-height: 1.75;
+}
+
+/* Keep the Footer links in a flexible row. */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+
+/* Style the Footer navigation links. */
+.footer-links a {
+  color: #dcebed;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+/* Brighten Footer links on hover. */
+.footer-links a:hover {
+  color: var(--white);
+}
+
+/* Separate the copyright line from the content above it. */
+.copyright {
+  margin: 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(120, 198, 208, 0.2);
+  color: #91aab3;
+  font-size: 0.78rem;
+}
+
+/* Tablet styles begin when the screen is 860px wide or smaller. */
+@media (max-width: 860px) {
+  /* Display two fish cards per row on tablets. */
+  .fish-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Add more top spacing so Hero text clears the Navbar. */
+  .hero-content {
+    padding-top: 132px;
+  }
+}
+
+/* Stack database controls when there is not enough horizontal space. */
+@media (max-width: 720px) {
+  .database-search {
+    grid-template-columns: 1fr;
+  }
+
+  .database-search__button {
+    width: 100%;
+  }
+
+  .family-filter__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .family-button {
+    min-width: 0;
+  }
+
+  .secondary-filters {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  .secondary-filter {
+    flex-basis: auto;
+  }
+
+  .clear-filters {
+    width: 100%;
+  }
+}
+
+/* Phone styles begin when the screen is 620px wide or smaller. */
+@media (max-width: 620px) {
+  /* Reduce horizontal margins on narrow screens. */
+  .navbar nav,
+  .hero-content,
+  .fish-database {
+    width: min(100% - 28px, 1180px);
+  }
+
+  /* Make the Navbar taller so its links can wrap. */
+  .navbar nav {
+    min-height: 92px;
+    align-items: flex-start;
+    padding: 18px 0;
+  }
+
+  /* Allow navigation links to use two short rows. */
+  .nav-links {
+    max-width: 160px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  /* Reduce the navigation font size on phones. */
+  .nav-links a {
+    font-size: 0.78rem;
+  }
+
+  /* Give the Hero more vertical space on a narrow screen. */
+  .hero,
+  .hero-gallery,
+  .hero-slide,
+  .hero-content {
+    min-height: 86vh;
+  }
+
+  /* Keep Hero text below the taller mobile Navbar. */
+  .hero-content {
+    padding: 136px 0 50px;
+  }
+
+  /* Scale the main heading to the phone width. */
+  .hero-content h1 {
+    font-size: clamp(2.45rem, 13vw, 3.8rem);
+  }
+
+  /* Slightly reduce the long introduction on phones. */
+  .hero-intro {
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+
+  /* Let each Hero button use about half of the available row. */
+  .hero-actions a {
+    flex: 1 1 calc(50% - 8px);
+    padding-inline: 10px;
+    font-size: 0.76rem;
+  }
+
+  /* Reduce vertical padding around the fish section. */
+  .fish-database {
+    padding: 72px 0 80px;
+  }
+
+  /* Display one fish card per row on phones. */
+  .fish-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Give card images a little more height on narrow cards. */
+  .fish-card__image-area {
+    height: 255px;
+  }
+
+  /* Stack Footer content above Footer links. */
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 440px) {
+  .family-filter__buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Respect users who prefer less motion. */
+@media (prefers-reduced-motion: reduce) {
+  /* Disable smooth scrolling for reduced-motion users. */
+  html {
+    scroll-behavior: auto;
+  }
+
+  /* Disable card movement for users who prefer less motion. */
+  .fish-card,
+  .fish-card__image,
+  .family-button,
+  .database-search__button {
+    transition: none;
+  }
+
+  .fish-card:hover,
+  .fish-card:hover .fish-card__image,
+  .family-button:hover,
+  .database-search__button:hover {
+    transform: none;
+  }
 }
