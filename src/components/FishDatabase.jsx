@@ -3,16 +3,7 @@ import fishData from "../data/fishData.json";
 import SearchBar from "./SearchBar.jsx";
 import FilterBar from "./FilterBar.jsx";
 import FishCard from "./FishCard.jsx";
-
-// The JSON image paths do not match the files currently in public.
-// This object connects each confirmed fish id to a real local image.
-const localFishImages = {
-  "channa-argus": "/images/fish/channa-argus/adult/identification.png",
-  "macropodus-chinensis": "/images/fish/macropodus-chinensis/adult/mate.jpeg",
-  "esox-lucius": "/images/fish/esox-lucius/adult/side.jpg",
-  "siniperca-chuatsi":
-    "/images/fish/siniperca-chuatsi/adult/:siniperca-chuatsi:adult.png",
-};
+import fishImages from "../data/fishImages.js";
 
 // Create the region options from the real arrays inside fishData.json.
 const regions = [
@@ -31,7 +22,7 @@ const bodyShapes = [
   ),
 ].sort();
 
-function FishDatabase() {
+function FishDatabase({ onFishSelect }) {
   // Store the text currently visible inside the input.
   const [searchInput, setSearchInput] = useState("");
 
@@ -142,7 +133,8 @@ function FishDatabase() {
             <FishCard
               key={fish.id}
               fish={fish}
-              imageSrc={localFishImages[fish.id]}
+              imageSrc={fishImages[fish.id]?.cover?.src}
+              onSelect={onFishSelect}
             />
           ))}
         </div>

@@ -15,7 +15,7 @@ function getWaterTypeLabel(waterType) {
 }
 
 // Receive one fish object and one optional local image path as props.
-function FishCard({ fish, imageSrc }) {
+function FishCard({ fish, imageSrc, onSelect }) {
   // Start with false because the image has not failed when the card first renders.
   const [imageFailed, setImageFailed] = useState(false);
 
@@ -40,7 +40,19 @@ function FishCard({ fish, imageSrc }) {
 
   // Return one semantic article for one fish.
   return (
-    <article className="fish-card">
+    <article
+      className="fish-card"
+      role="button"
+      tabIndex="0"
+      aria-label={`查看${chineseName || englishName}的详细资料`}
+      onClick={() => onSelect(fish)}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onSelect(fish);
+        }
+      }}
+    >
       {/* Use the real family as the short category heading. */}
       {familyName && (
         <div className="fish-card__category">{familyName}</div>
@@ -119,7 +131,7 @@ function FishCard({ fish, imageSrc }) {
       {/* Keep complete family and genus information in the card footer. */}
       {(familyName || genusName) && (
         <div className="fish-card__footer">
-          <span>科属</span>
+          <span>查看详情 →</span>
           <strong>{[familyName, genusName].filter(Boolean).join(" · ")}</strong>
         </div>
       )}
@@ -127,5 +139,4 @@ function FishCard({ fish, imageSrc }) {
   );
 }
 
-// Export FishCard so FishDatabase.jsx can reuse it.
 export default FishCard;
