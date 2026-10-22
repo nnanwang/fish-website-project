@@ -74,7 +74,7 @@ The project deliberately keeps the implementation approachable: React state, arr
 
 The homepage combines editorial introduction with a database generated from JSON. Search and filters work together with logical **AND** conditions, and all filter options are derived from fields that actually exist in the dataset.
 
-![Homepage and fish database area](docs/images/database.png)
+<img width="1655" height="919" alt="image" src="https://github.com/user-attachments/assets/3fbf747f-7809-4849-9efe-3fba23a7a585" />
 
 - Search across `chineseName`, `englishName` and `scientificName`
 - Filter by `taxonomy.family`, `identification.regions` and `identification.bodyShape`
@@ -106,7 +106,8 @@ The guide is divided into four focused routes rather than one oversized article:
 
 Topic cards open dedicated reading views with their own section navigation. Fish recommendations reuse the visual language of the database cards and connect to corresponding fish profiles where data is available. The FAQ remains part of the guide rather than pretending to be a community or backend-supported Q&A system.
 
-![Freshwater care guide landing page with topic cards](docs/images/guide.png)
+<img width="1232" height="867" alt="image" src="https://github.com/user-attachments/assets/63f76270-900a-4ea0-8b30-3855666e3366" />
+<img width="1044" height="827" alt="image" src="https://github.com/user-attachments/assets/55406920-3c36-487a-a1d7-dfb48b0e9036" />
 
 ### 5. Project context and data transparency
 
