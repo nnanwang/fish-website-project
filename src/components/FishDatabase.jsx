@@ -1,0 +1,169 @@
+import { useState } from "react";
+import fishData from "../data/fishData.json";
+import SearchBar from "./SearchBar.jsx";
+import FilterBar from "./FilterBar.jsx";
+import FishCard from "./FishCard.jsx";
+// 图片修复：导入经过真实文件检查的本地图片映射。
+import fishImages from "../data/fishImages.js";
+
+// Keep the first record for each ID so repeated student records do not create
+// duplicate cards or duplicate React keys. The JSON file itself is unchanged.
+const uniqueFishData = fishData.filter(
+  (fish, index, allFish) =>
+    fish.id && allFish.findIndex((item) => item.id === fish.id) === index,
+);
+
+// Create the region options from the real arrays inside fishData.json.
+const regions = [
+  ...new Set(
+    uniqueFishData.flatMap((fish) => fish.identification?.regions || []),
+  ),
+].sort();
+
+// Create one button for each real family value in the JSON.
+const families = [
+  ...new Set(
+    uniqueFishData.map((fish) => fish.taxonomy?.family).filter(Boolean),
+  ),
+].sort();
+
+// Body shape has two distinct values, so it is useful as a second filter.
+const bodyShapes = [
+  ...new Set(
+    uniqueFishData
+      .map((fish) => fish.identification?.bodyShape)
+      .filter(Boolean),
+  ),
+].sort();
+
+function FishDatabase({ onFishSelect }) {
+  // Store the text currently visible inside the input.
+  const [searchInput, setSearchInput] = useState("");
+
+  // Store the submitted search term used by filter().
+  const [searchTerm, setSearchTerm] = useState("");
+
+  // Store each selected classification value.
+  const [selectedFamily, setSelectedFamily] = useState("all");
+  const [selectedRegion, setSelectedRegion] = useState("all");
+  const [selectedBodyShape, setSelectedBodyShape] = useState("all");
+
+  // Remove extra spaces and ignore English letter case.
+  const normalizedSearch = searchTerm.trim().toLowerCase();
+
+  // Create a new array containing only fish that match every condition.
+  const filteredFish = uniqueFishData.filter((fish) => {
+    // Missing name fields become empty strings so includes() stays safe.
+    const chineseName = (fish.chineseName || "").toLowerCase();
+    const englishName = (fish.englishName || "").toLowerCase();
+    const scientificName = (fish.scientificName || "").toLowerCase();
+
+    // Missing filter arrays become empty arrays so includes() stays safe.
+    const fishRegions = fish.identification?.regions || [];
+    const fishFamily = fish.taxonomy?.family || "";
+    const fishBodyShape = fish.identification?.bodyShape || "";
+
+    const matchesSearch =
+      chineseName.includes(normalizedSearch) ||
+      englishName.includes(normalizedSearch) ||
+      scientificName.includes(normalizedSearch);
+
+    const matchesRegion =
+      selectedRegion === "all" || fishRegions.includes(selectedRegion);
+
+    const matchesFamily =
+      selectedFamily === "all" || fishFamily === selectedFamily;
+
+    const matchesBodyShape =
+      selectedBodyShape === "all" || fishBodyShape === selectedBodyShape;
+
+    return (
+      matchesSearch && matchesFamily && matchesRegion && matchesBodyShape
+    );
+  });
+
+  // Check whether any search or filter value has changed.
+  const hasActiveFilters =
+    searchInput !== "" ||
+    searchTerm !== "" ||
+    selectedFamily !== "all" ||
+    selectedRegion !== "all" ||
+    selectedBodyShape !== "all";
+
+  // Submit with the button or Enter without reloading the page.
+  function handleSearchSubmit(event) {
+    event.preventDefault();
+    setSearchTerm(searchInput.trim());
+  }
+
+  // Reset every control to its default value.
+  function clearFilters() {
+    setSearchInput("");
+    setSearchTerm("");
+    setSelectedFamily("all");
+    setSelectedRegion("all");
+    setSelectedBodyShape("all");
+  }
+
+  return (
+    <section
+      className="fish-database"
+      id="explore"
+      aria-labelledby="database-title"
+    >
+      <div className="section-heading">
+        <p className="eyebrow">FISH DATABASE</p>
+        <h2 id="database-title">中国鱼类数据库</h2>
+        <p>通过名称与分类条件，查找并认识不同的鱼类。</p>
+      </div>
+
+      <SearchBar
+        searchInput={searchInput}
+        onSearchInputChange={setSearchInput}
+        onSearchSubmit={handleSearchSubmit}
+      />
+
+      <FilterBar
+        families={families}
+        selectedFamily={selectedFamily}
+        onFamilyChange={setSelectedFamily}
+        regions={regions}
+        selectedRegion={selectedRegion}
+        onRegionChange={setSelectedRegion}
+        bodyShapes={bodyShapes}
+        selectedBodyShape={selectedBodyShape}
+        onBodyShapeChange={setSelectedBodyShape}
+        onClear={clearFilters}
+        hasActiveFilters={hasActiveFilters}
+      />
+
+      <p className="result-count" aria-live="polite">
+        共找到 {filteredFish.length} 种鱼类
+      </p>
+
+      {filteredFish.length > 0 ? (
+        <div className="fish-grid">
+          {filteredFish.map((fish) => (
+            // 图片修复：使用 fish.id 查找封面；找不到时 FishCard 会显示淡蓝色占位区域。
+            <FishCard
+              key={fish.id}
+              fish={fish}
+              imageSrc={fishImages[fish.id]?.cover?.src}
+              onSelect={onFishSelect}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="empty-results">
+          <h3>没有找到符合条件的鱼类</h3>
+          <p>请尝试其他名称，或清除当前筛选条件。</p>
+          <button type="button" onClick={clearFilters}>
+            查看全部鱼类
+          </button>
+        </div>
+      )}
+    </section>
+  );
+}
+
+export default FishDatabase;

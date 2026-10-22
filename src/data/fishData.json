@@ -159,6 +159,158 @@
     "lastUpdated": "2026-07-23"
   },
   {
+    "id": "esox-reicherti",
+    "chineseName": "黑斑狗鱼",
+    "englishName": "Amur Pike",
+    "scientificName": "Esox reicherti",
+    "scientificAuthor": "Dybowski, 1869",
+    "taxonomy": {
+      "order": "狗鱼目",
+      "family": "狗鱼科",
+      "genus": "狗鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "伏击型"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "中层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "身体细长，银色的侧面布满了小黑点。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "银色"
+      ],
+      "patterns": [
+        "小黑点"
+      ],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "分叉形",
+      "keyFeatures": [
+        "身体细长",
+        "吻部较长",
+        "银色的侧面布满了小黑点"
+      ],
+      "sexualDifferences": "雌性生长速度远高于雄性，雌性成年极限个体远大于雄性。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "黑龙江"
+      ],
+      "riverSystems": [
+        "黑龙江流域",
+        "嫩江",
+        "乌苏里江"
+      ],
+      "globalRegions": [],
+      "description": "主要分布于黑龙江流域，嫩江和乌苏里江等水系。"
+    },
+    "habitat": {
+      "environment": [
+        "湖泊",
+        "河流"
+      ],
+      "waterFlow": [
+        "缓流",
+        "流水"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "偏好溶氧量较高的水体",
+      "description": "典型冷水性鱼类，偏好水质清澈，溶氧量高，流动性良好的湖泊中。"
+    },
+    "ecology": {
+      "feedingBehavior": "伏击其他鱼类",
+      "food": [
+        "小型鱼类"
+      ],
+      "behavior": "是典型的伏击性猎手，有同类相食的习性。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "困难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [
+        "需要较大的活动空间",
+        "需要高溶氧水体"
+      ],
+      "warning": "不建议新手饲养。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "forked",
+      "patterns": [
+        "dark-spots"
+      ],
+      "regions": [
+        "heilongjiang"
+      ],
+      "keywords": [
+        "冷水鱼",
+        "细长",
+        "小黑点",
+        "伏击型"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "/Esox-reicherti-1/adult",
+        "alt": "",
+        "caption": "/Esox-reicherti-1/adult",
+        "source": "成年黑斑狗鱼",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "/Esox-reicherti-1/juvenile.jpg",
+          "alt": "/Esox-reicherti-1/juvenile.jpg",
+          "caption": "幼年黑斑狗鱼",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "狗鱼属",
+        "url": "https://zhuanlan.zhihu.com/p/441516224",
+        "organization": "知乎",
+        "accessDate": "2026-09-12"
+      }
+    ],
+    "lastUpdated": "2026-09-12"
+  },
+  {
     "id": "macropodus-chinensis",
     "chineseName": "圆尾斗鱼",
     "englishName": "Round-tailed Paradise Fish",
@@ -749,6 +901,5584 @@
           "license": ""
         }
       ]
-    }
+    },
+    "sources": [],
+    "lastUpdated": "2026-07-21"
+  },
+  {
+    "id": "siniperca-kneri",
+    "chineseName": "大眼鳜",
+    "englishName": "Bigeye mandarin fish",
+    "scientificName": "Siniperca kneri",
+    "scientificAuthor": "Garman, 1912",
+    "taxonomy": {
+      "order": "鲈形目",
+      "family": "真鲈科",
+      "genus": "鳜属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 50,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "掠食性"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "和鳜差不多。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "和鳜差不多"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [
+        "珠江流域"
+      ],
+      "globalRegions": [],
+      "description": "珠江流域的常见菜鱼。"
+    },
+    "habitat": {
+      "environment": [
+        "溪流"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "大型溪流掠食性鱼类。"
+    },
+    "ecology": {
+      "feedingBehavior": "掠食",
+      "food": [],
+      "behavior": "大型溪流掠食性鱼类。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "饲养要求和鳜相似。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "pearl-river"
+      ],
+      "keywords": [
+        "大眼鳜"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "siniperca-kneri/adult/1",
+        "alt": "大眼鳜成体照片",
+        "caption": "大眼鳜成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "siniperca-kneri/adult/2",
+          "alt": "大眼鳜成体照片",
+          "caption": "大眼鳜成体照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "鳜属",
+        "url": "",
+        "organization": "",
+        "accessDate": "2026-09-28"
+      }
+    ],
+    "lastUpdated": "2026-09-28"
+  },
+  {
+    "id": "siniperca-obscura",
+    "chineseName": "暗鳜",
+    "englishName": "Dark mandarin fish",
+    "scientificName": "Siniperca obscura",
+    "scientificAuthor": "Nichols, 1930",
+    "taxonomy": {
+      "order": "鲈形目",
+      "family": "真鲈科",
+      "genus": "鳜属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 20,
+      "averageLengthCm": 15,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "掠食性"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "浙江"
+      ],
+      "riverSystems": [
+        "钱塘江",
+        "瓯江水系"
+      ],
+      "globalRegions": [],
+      "description": "浙江建德，衢州的钱塘江；瓯江水系。"
+    },
+    "habitat": {
+      "environment": [
+        "溪流"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "小型溪流掠食鱼类。"
+    },
+    "ecology": {
+      "feedingBehavior": "掠食",
+      "food": [
+        "麦穗"
+      ],
+      "behavior": "小型溪流掠食鱼类。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可以喂麦穗。",
+      "specialRequirements": [
+        "需要更多的躲避"
+      ],
+      "warning": "暗鳜胆子很小，可以混养的鱼种更多；暗鳜属于中小型鳜。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "zhejiang"
+      ],
+      "keywords": [
+        "暗鳜"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "siniperca-obscura/adult/1",
+        "alt": "暗鳜成体照片",
+        "caption": "暗鳜成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "siniperca-obscura/adult/2",
+          "alt": "暗鳜成体照片",
+          "caption": "暗鳜成体照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "鳜属",
+        "url": "",
+        "organization": "",
+        "accessDate": "2026-08-30"
+      }
+    ],
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "id": "siniperca-roulei",
+    "chineseName": "长体鳜",
+    "englishName": "Slender mandarin fish",
+    "scientificName": "Siniperca roulei",
+    "scientificAuthor": "Wu, 1930",
+    "taxonomy": {
+      "order": "鲈形目",
+      "family": "真鲈科",
+      "genus": "鳜属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 30,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "掠食性"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "",
+      "bodyShape": "长体",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [
+        "长江",
+        "阮江",
+        "潘阳湖"
+      ],
+      "globalRegions": [],
+      "description": "分布于长江中下游（阮江，潘阳湖）。"
+    },
+    "habitat": {
+      "environment": [
+        "溪流"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "小型溪流掠食性鱼类。"
+    },
+    "ecology": {
+      "feedingBehavior": "掠食",
+      "food": [
+        "虾"
+      ],
+      "behavior": "小型溪流掠食性鱼类。",
+      "reproduction": "4月-6月为繁殖期。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "更爱吃虾。",
+      "specialRequirements": [],
+      "warning": "长体鳜和暗鳜饲养环境相似。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "yangtze-river"
+      ],
+      "keywords": [
+        "长体鳜"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "siniperca-roulei/adult/1",
+        "alt": "长体鳜成体照片",
+        "caption": "长体鳜成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "siniperca-roulei/adult/2",
+          "alt": "长体鳜成体照片",
+          "caption": "长体鳜成体照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "鳜属",
+        "url": "",
+        "organization": "",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "siniperca-scherzeri",
+    "chineseName": "斑鳜",
+    "englishName": "Spotted mandarin fish",
+    "scientificName": "Siniperca scherzeri",
+    "scientificAuthor": "Steindachner, 1892",
+    "taxonomy": {
+      "order": "鲈形目",
+      "family": "真鲈科",
+      "genus": "鳜属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "掠食性"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [
+        "斑块"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [
+        "珠江流域",
+        "红水河",
+        "左江",
+        "右江",
+        "漓江"
+      ],
+      "globalRegions": [],
+      "description": "珠江流域红水河，左江，右江，漓江等。"
+    },
+    "habitat": {
+      "environment": [
+        "溪流"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "大型溪流掠食性鱼类。"
+    },
+    "ecology": {
+      "feedingBehavior": "掠食",
+      "food": [],
+      "behavior": "大型溪流掠食性鱼类。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "和鳜类似。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "spots"
+      ],
+      "regions": [
+        "pearl-river"
+      ],
+      "keywords": [
+        "斑鳜",
+        "黄金鳜"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "siniperca-scherzeri/adult/1",
+        "alt": "斑鳜成体照片",
+        "caption": "斑鳜成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "siniperca-scherzeri/adult/2",
+          "alt": "斑鳜成体照片",
+          "caption": "斑鳜成体照片",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "siniperca-scherzeri/juvenile/1",
+          "alt": "斑鳜亚成体照片",
+          "caption": "斑鳜亚成体照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "鳜属",
+        "url": "",
+        "organization": "",
+        "accessDate": "2026-08-27"
+      }
+    ],
+    "lastUpdated": "2026-08-27"
+  },
+  {
+    "id": "hyporhamphus-intermedius",
+    "chineseName": "间下鱵",
+    "englishName": "",
+    "scientificName": "Hyporhamphus intermedius",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "下鱵属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 15,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "上层"
+      ]
+    },
+    "appearance": {
+      "summary": "梳子嘴，竹竿身，最大15cm。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "长喙",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "梳子嘴",
+        "竹竿身"
+      ],
+      "sexualDifferences": "繁殖期雄鱼会有一根很长的交合突；有些资料说间下鱵有雌雄同体（futa）现象。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "上海"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "极其广泛，上海都有。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "参考青鳉，水面群游。"
+    },
+    "ecology": {
+      "feedingBehavior": "肉食性较高",
+      "food": [
+        "丰年虾"
+      ],
+      "behavior": "水面群游。",
+      "reproduction": "有些资料说有雌雄同体现象。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "困难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "要不停喂，不然会瘦；推荐喂丰年虾。",
+      "specialRequirements": [
+        "大环境",
+        "不可混养"
+      ],
+      "warning": "养活难度不高，养好挺难；一要有大环境，不然会把那根针给撞坏；不要和其他鱼混养，不然抢不过。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "水针",
+        "颌针",
+        "长嘴青鳉"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "hyporhamphus-intermedius/1/adult",
+        "alt": "间下鱵成体照片",
+        "caption": "间下鱵成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "hyporhamphus-intermedius/2/adult",
+          "alt": "水面上的鱵照片",
+          "caption": "水面上的鱵照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "间下鱵介绍",
+        "url": "https://www.bilibili.com/video/BV1oAmBBDEYt/?spm_id_from=333.337.search-card.all.click&vd_source=4da3f5b3aee08478ab36645a13b5d739",
+        "organization": "Bilibili",
+        "accessDate": "2026-09-10"
+      }
+    ],
+    "lastUpdated": "2026-09-10"
+  },
+  {
+    "id": "oryzias-latipes",
+    "chineseName": "日本青鳉",
+    "englishName": "Japanese Rice Fish",
+    "scientificName": "Oryzias latipes",
+    "scientificAuthor": "Temminck et Schlegel, 1846",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 4,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体型细长，最大体长约4.0 cm。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "背鳍软条6-7根",
+        "臀鳍软条15-21根",
+        "脊椎骨30-31节"
+      ],
+      "sexualDifferences": "雄鱼臀鳍呈四边形（类似平行四边形），且较为宽大；雌鱼的臀鳍虽然也是四边形，但不平行且相对较窄。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "中国"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "日本",
+        "韩国",
+        "越南"
+      ],
+      "description": "亚洲的日本、韩国、中国及越南等地；在中国南方等地区，由于外来入侵物种食蚊鱼的引入，许多地方的青鳉都在消亡。"
+    },
+    "habitat": {
+      "environment": [
+        "浅水区",
+        "稻田"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "主要为淡水或半咸水底栖/表层鱼类。喜欢生活在水流缓慢或静止的浅水区，但其实什么地方都能活。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于稻田等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [],
+      "warning": "观背青鳉的习性，喂食一律不清楚；非常容易饲养，适合养在水流平缓的鱼缸或水钵中。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "日本青鳉",
+        "观背青鳉"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-latipes/1/adult",
+        "alt": "日本青鳉成体照片",
+        "caption": "日本青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "oryzias-latipes/2/adult",
+          "alt": "日本青鳉与中华青鳉对比照片",
+          "caption": "日本青鳉与中华青鳉对比照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-17"
+      }
+    ],
+    "lastUpdated": "2026-09-17"
+  },
+  {
+    "id": "oryzias-sinensis",
+    "chineseName": "中华青鳉",
+    "englishName": "Chinese Rice Fish",
+    "scientificName": "Oryzias sinensis",
+    "scientificAuthor": "Chen, Uwa & Chu, 1989",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "长得和青鳉非常像。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "长得和青鳉非常像",
+        "只有受精孔，卵的大小有区别"
+      ],
+      "sexualDifferences": "雄性臀鳍呈现宽大的平行四边形；雌性臀鳍稍小且下缘不平行。"
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [
+        "红河",
+        "南盘江流域",
+        "湄公河",
+        "伊洛瓦底江",
+        "萨尔温江"
+      ],
+      "globalRegions": [
+        "哈萨克斯坦",
+        "俄罗斯",
+        "乌克兰"
+      ],
+      "description": "亚洲湄公河、伊洛瓦底江、萨尔温江、红河及南盘江流域；被引入哈萨克斯坦、俄罗斯及乌克兰等地并已建立种群。"
+    },
+    "habitat": {
+      "environment": [
+        "浅水区",
+        "稻田"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "主要为淡水或半咸水底栖/表层鱼类。喜欢生活在水流缓慢或静止的浅水区，但其实什么地方都能活。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于稻田等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [],
+      "warning": "非常容易饲养，适合养在水流平缓的鱼缸或水钵中。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "中华青鳉"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-sinensis/1/adult",
+        "alt": "中华青鳉成体照片",
+        "caption": "中华青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "oryzias-sinensis/2/adult",
+          "alt": "日本青鳉与中华青鳉对比照片",
+          "caption": "日本青鳉与中华青鳉对比照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-08-28"
+      }
+    ],
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "id": "oryzias-pectoralis",
+    "chineseName": "鳍斑青鳉",
+    "englishName": "Pectoral Rice Fish",
+    "scientificName": "Oryzias pectoralis",
+    "scientificAuthor": "Roberts, 1998",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 2.2,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体型相对较为纤细，最大体长约2.2 cm。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [
+        "胸鳍黑斑"
+      ],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "体型相对较为纤细",
+        "背鳍软条6-7根",
+        "臀鳍软条19-20根",
+        "脊椎骨30节",
+        "最显著特征是胸鳍基部上半部分有一个黑斑"
+      ],
+      "sexualDifferences": "雄性臀鳍呈平行四边形，雌性为不平行的四边形。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "广西"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "老挝",
+        "越南"
+      ],
+      "description": "老挝、越南及中国广西水系（常在稻田、沼泽和水流缓慢的河流避风处发现）。"
+    },
+    "habitat": {
+      "environment": [
+        "稻田",
+        "沼泽",
+        "河流"
+      ],
+      "waterFlow": [
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "常在稻田、沼泽和水流缓慢的河流避风处发现；主要为淡水或半咸水底栖/表层鱼类。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于稻田等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [],
+      "warning": "非常容易饲养，适合养在水流平缓的鱼缸或水钵中。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [
+        "pectoral-spot"
+      ],
+      "regions": [
+        "guangxi"
+      ],
+      "keywords": [
+        "鳍斑青鳉",
+        "桂系青鳉",
+        "黑斑"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-pectoralis/1/adult",
+        "alt": "鳍斑青鳉成体照片",
+        "caption": "鳍斑青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "oryzias-javanicus",
+    "chineseName": "红树林青鳉",
+    "englishName": "Javanese Rice Fish",
+    "scientificName": "Oryzias javanicus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "汽水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体型娇小，体色通常呈半透明或银灰色，适应汽水（半咸水）环境的特殊生理结构。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "半透明",
+        "银灰色"
+      ],
+      "patterns": [],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "体型娇小",
+        "体色通常呈半透明或银灰色"
+      ],
+      "sexualDifferences": "遵循青鳉属的一般规律，雄性臀鳍更为宽大平整（平行四边形），体色在发情期更深；雌性臀鳍较窄。"
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [],
+      "globalRegions": [
+        "东南亚"
+      ],
+      "description": "东南亚一带的红树林、河口交汇处及沿海半咸水区域。"
+    },
+    "habitat": {
+      "environment": [
+        "红树林",
+        "河口",
+        "沿海"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "适应汽水（半咸水）环境；东南亚一带的红树林、河口交汇处及沿海半咸水区域。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于红树林等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [
+        "需要加热棒",
+        "需要加盐"
+      ],
+      "warning": "作为汽水鱼对盐度和温度有一定要求，弄个加热棒，加点盐就行。"
+    },
+    "identification": {
+      "waterType": [
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "红树林青鳉",
+        "爪哇青鳉",
+        "汽水鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-javanicus/1/adult",
+        "alt": "红树林青鳉成体照片",
+        "caption": "红树林青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-08-22"
+      }
+    ],
+    "lastUpdated": "2026-08-22"
+  },
+  {
+    "id": "oryzias-latipes",
+    "chineseName": "日本青鳉",
+    "englishName": "Japanese Rice Fish",
+    "scientificName": "Oryzias latipes",
+    "scientificAuthor": "Temminck et Schlegel, 1846",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 4,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体型细长，最大体长约4.0 cm。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "背鳍软条6-7根",
+        "臀鳍软条15-21根",
+        "脊椎骨30-31节"
+      ],
+      "sexualDifferences": "雄鱼臀鳍呈四边形（类似平行四边形），且较为宽大；雌鱼的臀鳍虽然也是四边形，但不平行且相对较窄。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "中国"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "日本",
+        "韩国",
+        "越南"
+      ],
+      "description": "亚洲的日本、韩国、中国及越南等地；在中国南方等地区，由于外来入侵物种食蚊鱼的引入，许多地方的青鳉都在消亡。"
+    },
+    "habitat": {
+      "environment": [
+        "浅水区",
+        "稻田"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "主要为淡水或半咸水底栖/表层鱼类。喜欢生活在水流缓慢或静止的浅水区，但其实什么地方都能活。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于稻田等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [],
+      "warning": "观背青鳉的习性，喂食一律不清楚；非常容易饲养，适合养在水流平缓的鱼缸或水钵中。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "日本青鳉",
+        "观背青鳉"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-latipes/1/adult",
+        "alt": "日本青鳉成体照片",
+        "caption": "日本青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "oryzias-latipes/2/adult",
+          "alt": "日本青鳉与中华青鳉对比照片",
+          "caption": "日本青鳉与中华青鳉对比照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-08-25"
+      }
+    ],
+    "lastUpdated": "2026-08-25"
+  },
+  {
+    "id": "oryzias-sinensis",
+    "chineseName": "中华青鳉",
+    "englishName": "Chinese Rice Fish",
+    "scientificName": "Oryzias sinensis",
+    "scientificAuthor": "Chen, Uwa & Chu, 1989",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "长得和青鳉非常像。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "长得和青鳉非常像",
+        "只有受精孔，卵的大小有区别"
+      ],
+      "sexualDifferences": "雄性臀鳍呈现宽大的平行四边形；雌性臀鳍稍小且下缘不平行。"
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [
+        "红河",
+        "南盘江流域",
+        "湄公河",
+        "伊洛瓦底江",
+        "萨尔温江"
+      ],
+      "globalRegions": [
+        "哈萨克斯坦",
+        "俄罗斯",
+        "乌克兰"
+      ],
+      "description": "亚洲湄公河、伊洛瓦底江、萨尔温江、红河及南盘江流域；被引入哈萨克斯坦、俄罗斯及乌克兰等地并已建立种群。"
+    },
+    "habitat": {
+      "environment": [
+        "浅水区",
+        "稻田"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "主要为淡水或半咸水底栖/表层鱼类。喜欢生活在水流缓慢或静止的浅水区，但其实什么地方都能活。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于稻田等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [],
+      "warning": "非常容易饲养，适合养在水流平缓的鱼缸或水钵中。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "中华青鳉"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-sinensis/1/adult",
+        "alt": "中华青鳉成体照片",
+        "caption": "中华青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "oryzias-sinensis/2/adult",
+          "alt": "日本青鳉与中华青鳉对比照片",
+          "caption": "日本青鳉与中华青鳉对比照片",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-20"
+      }
+    ],
+    "lastUpdated": "2026-09-20"
+  },
+  {
+    "id": "oryzias-pectoralis",
+    "chineseName": "鳍斑青鳉",
+    "englishName": "Pectoral Rice Fish",
+    "scientificName": "Oryzias pectoralis",
+    "scientificAuthor": "Roberts, 1998",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 2.2,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "淡水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体型相对较为纤细，最大体长约2.2 cm。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [
+        "胸鳍黑斑"
+      ],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "体型相对较为纤细",
+        "背鳍软条6-7根",
+        "臀鳍软条19-20根",
+        "脊椎骨30节",
+        "最显著特征是胸鳍基部上半部分有一个黑斑"
+      ],
+      "sexualDifferences": "雄性臀鳍呈平行四边形，雌性为不平行的四边形。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "广西"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "老挝",
+        "越南"
+      ],
+      "description": "老挝、越南及中国广西水系（常在稻田、沼泽和水流缓慢的河流避风处发现）。"
+    },
+    "habitat": {
+      "environment": [
+        "稻田",
+        "沼泽",
+        "河流"
+      ],
+      "waterFlow": [
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "常在稻田、沼泽和水流缓慢的河流避风处发现；主要为淡水或半咸水底栖/表层鱼类。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于稻田等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [],
+      "warning": "非常容易饲养，适合养在水流平缓的鱼缸或水钵中。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [
+        "pectoral-spot"
+      ],
+      "regions": [
+        "guangxi"
+      ],
+      "keywords": [
+        "鳍斑青鳉",
+        "桂系青鳉",
+        "黑斑"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-pectoralis/1/adult",
+        "alt": "鳍斑青鳉成体照片",
+        "caption": "鳍斑青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-12"
+      }
+    ],
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "oryzias-javanicus",
+    "chineseName": "红树林青鳉",
+    "englishName": "Javanese Rice Fish",
+    "scientificName": "Oryzias javanicus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "颌针鱼目",
+      "family": "大颌鳉科",
+      "genus": "青鳉属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "表层群游"
+      ],
+      "waterType": [
+        "汽水",
+        "半咸水"
+      ],
+      "waterLayer": [
+        "上层",
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体型娇小，体色通常呈半透明或银灰色，适应汽水（半咸水）环境的特殊生理结构。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "半透明",
+        "银灰色"
+      ],
+      "patterns": [],
+      "mouthPosition": "端位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平截形",
+      "keyFeatures": [
+        "体型娇小",
+        "体色通常呈半透明或银灰色"
+      ],
+      "sexualDifferences": "遵循青鳉属的一般规律，雄性臀鳍更为宽大平整（平行四边形），体色在发情期更深；雌性臀鳍较窄。"
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [],
+      "globalRegions": [
+        "东南亚"
+      ],
+      "description": "东南亚一带的红树林、河口交汇处及沿海半咸水区域。"
+    },
+    "habitat": {
+      "environment": [
+        "红树林",
+        "河口",
+        "沿海"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "适应汽水（半咸水）环境；东南亚一带的红树林、河口交汇处及沿海半咸水区域。"
+    },
+    "ecology": {
+      "feedingBehavior": "表层觅食",
+      "food": [
+        "花鸟市场饲料",
+        "小型活食"
+      ],
+      "behavior": "常栖息于红树林等水域。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "可投喂花鸟市场饲料或小型活食。",
+      "specialRequirements": [
+        "需要加热棒",
+        "需要加盐"
+      ],
+      "warning": "作为汽水鱼对盐度和温度有一定要求，弄个加热棒，加点盐就行。"
+    },
+    "identification": {
+      "waterType": [
+        "brackish"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "terminal",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "红树林青鳉",
+        "爪哇青鳉",
+        "汽水鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oryzias-javanicus/1/adult",
+        "alt": "红树林青鳉成体照片",
+        "caption": "红树林青鳉成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "青鳉属介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-08"
+      }
+    ],
+    "lastUpdated": "2026-09-08"
+  },
+  {
+    "id": "micropercops-swinhonis",
+    "chineseName": "小黄䱂鱼",
+    "englishName": "",
+    "scientificName": "Micropercops swinhonis",
+    "scientificAuthor": "Fowler et Bean, 1920",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "沙塘鳢科",
+      "genus": "小黄䱂鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 6.0,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底层掠食"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "小黄䱂鱼幼体十分常见，但成体会更隐蔽，更难找一些。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "雄性腹部的橙红色是最明显的特征之一",
+        "头顶的追星也十分突出"
+      ],
+      "sexualDifferences": "小黄䱂鱼成体后会有及其明显的雌雄差异，雄性体型会明显更大并在繁殖期拥有更靓丽的体色，其腹部的橙红色是最明显的特征之一，另外头顶的追星也十分突出。"
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [
+        "东中部河流",
+        "东南部河流",
+        "西南部河流"
+      ],
+      "globalRegions": [],
+      "description": "广泛分布于我国东中部，东南部，西南部各大小河流，水库，湖泊。"
+    },
+    "habitat": {
+      "environment": [
+        "河流",
+        "水库",
+        "湖泊",
+        "水沟"
+      ],
+      "waterFlow": [],
+      "bottomType": [
+        "底砂",
+        "淤泥"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "是个水沟就有，可以生活在底砂，淤泥等任何材质上。"
+    },
+    "ecology": {
+      "feedingBehavior": "底层掠食",
+      "food": [
+        "黑壳虾",
+        "红虫"
+      ],
+      "behavior": "底层掠食者，抢食较为积极，但打架不行，不是特别强势。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "食物只需要最基础的黑壳虾,红虫即可，记得按时投喂。",
+      "specialRequirements": [],
+      "warning": "小黄䱂鱼可以说是和食蚊鱼一样好养的鱼，非常好养活，甚至不需要水妖精和过滤器，只需要每周换一次水。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "小黄䱂鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "micropercops-swinhonis/1/adult",
+        "alt": "小黄䱂鱼成体照片",
+        "caption": "小黄䱂鱼成体",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "micropercops-swinhonis/2/juvenile",
+          "alt": "小黄䱂鱼幼体照片",
+          "caption": "小黄䱂鱼幼体",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "micropercops-swinhonis/3/juvenile",
+          "alt": "小黄䱂鱼幼体照片",
+          "caption": "小黄䱂鱼幼体",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "micropercops-swinhonis/4/adult",
+          "alt": "小黄䱂鱼成体组图",
+          "caption": "小黄䱂鱼成体",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "沙塘鳢科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-18"
+      }
+    ],
+    "lastUpdated": "2026-09-18"
+  },
+  {
+    "id": "sineleotris-saccharae",
+    "chineseName": "萨氏华䱂",
+    "englishName": "",
+    "scientificName": "Sineleotris saccharae",
+    "scientificAuthor": "Herre, 1940",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "沙塘鳢科",
+      "genus": "华䱂鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 10,
+      "averageLengthCm": 8.5,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "据说有广东广西不同表型，而且体色变化较大。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": "雄性有夸示习性。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "广东",
+        "广西"
+      ],
+      "riverSystems": [
+        "韩江",
+        "龙津河",
+        "东江",
+        "漠阳水系"
+      ],
+      "globalRegions": [],
+      "description": "广东韩江，龙津河，东江，漠阳水系。"
+    },
+    "habitat": {
+      "environment": [
+        "河川",
+        "小溪"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": 15,
+      "temperatureMaxC": 32,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "淡水中小型底栖鱼类，常见于河川，小溪。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [
+        "活食",
+        "虾肉"
+      ],
+      "behavior": "性格较为内敛，白天不太能见到；不太打架，与同体型鱼类相处时较为温和。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "较高",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "15-32",
+      "feedingAdvice": "支持者活食。对红虫，饲料接受度较低，推荐用虾肉开口。",
+      "specialRequirements": [],
+      "warning": "开口难度较高。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "guangdong",
+        "guangxi"
+      ],
+      "keywords": [
+        "萨氏华䱂",
+        "二愣子"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "sineleotris-saccharae/1/adult",
+        "alt": "萨氏华䱂发色照片",
+        "caption": "发色时的广西萨氏",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "sineleotris-saccharae/2/adult",
+          "alt": "萨氏华䱂应激照片",
+          "caption": "应激时的白板",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "sineleotris-saccharae/3/adult",
+          "alt": "鲜艳红色版萨氏华䱂照片",
+          "caption": "鲜艳红色版的萨氏",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "二愣子萨氏华䱂",
+        "url": "https://www.bilibili.com/video/BV1Mv421r7D5/?spm_id_from=333.337.search-card.all.click&vd_source=4da3f5b3aee08478ab36645a13b5d739",
+        "organization": "Bilibili",
+        "accessDate": "2026-08-25"
+      },
+      {
+        "title": "萨氏华䱂专栏",
+        "url": "https://www.bilibili.com/opus/516516774225760563",
+        "organization": "Bilibili",
+        "accessDate": "2026-08-25"
+      }
+    ],
+    "lastUpdated": "2026-08-25"
+  },
+  {
+    "id": "rhinogobius-cliffordpopei",
+    "chineseName": "波氏吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius cliffordpopei",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": "雄性繁殖期更鲜艳，雌性暗沉一点。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "中国"
+      ],
+      "riverSystems": [
+        "辽河",
+        "钱塘江",
+        "珠江",
+        "长江",
+        "黄河"
+      ],
+      "globalRegions": [],
+      "description": "辽河、钱塘江、珠江、长江和黄河等水系。为中国特有种。"
+    },
+    "habitat": {
+      "environment": [
+        "山溪",
+        "江河",
+        "湖泊"
+      ],
+      "waterFlow": [
+        "流水"
+      ],
+      "bottomType": [
+        "砂石底"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "常栖息于砂石底的山溪流水，亦在江河、湖泊浅水区生活。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [
+        "水生昆虫",
+        "小鱼"
+      ],
+      "behavior": "底栖小型鱼类；本种为陆封型生态习性。",
+      "reproduction": "繁殖期为5~6月，产黏性卵，卵较小，幼鱼有浮游期且时间较长。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "本种目前已经有规模化繁殖技术。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "yellow-river",
+        "yangtze-river",
+        "pearl-river"
+      ],
+      "keywords": [
+        "波氏吻虾虎鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-cliffordpopei/1/adult",
+        "alt": "波氏吻虾虎鱼成体照片",
+        "caption": "波氏吻虾虎鱼成体",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "rhinogobius-cliffordpopei/2/adult",
+          "alt": "波氏、李氏、三峡吻虾虎鱼区分图",
+          "caption": "虾虎鱼区分指南",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-08-30"
+      }
+    ],
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "id": "rhinogobius-brunneus",
+    "chineseName": "褐吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius brunneus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "褐吻没有喉纹，这是区别他和其他大型校霸虾虎的特征。同时褐吻的高帆也是显著特征。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "没有喉纹",
+        "高帆"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "北方",
+        "山东"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "我国北方，山东等地区。"
+    },
+    "habitat": {
+      "environment": [
+        "江河",
+        "浅滩",
+        "水库",
+        "湖泊",
+        "小溪"
+      ],
+      "waterFlow": [],
+      "bottomType": [
+        "砾石"
+      ],
+      "temperatureMinC": 10,
+      "temperatureMaxC": 32,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "生活在江河浅滩的砾石间、水库鱼苗池等环境中，吸附在砾石、石壁上，湖泊、山间小溪均有分布。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [
+        "甲壳动物",
+        "蚯蚓"
+      ],
+      "behavior": "喜食甲壳动物；为淡水、两侧洄游生态习性，存在陆封种群。",
+      "reproduction": "褐吻产小卵，有较长时间的浮游期，幼鱼较小，难以在人工环境下繁殖。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "10-32",
+      "feedingAdvice": "同养时也吃蚯蚓。",
+      "specialRequirements": [],
+      "warning": "水温10-32度，扔个水妖精，不会死。胆子超大，会把小虾虎打的不出来，可以混养其他校霸虾虎。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "shandong"
+      ],
+      "keywords": [
+        "褐吻虾虎鱼",
+        "狗甘仔",
+        "苦甘仔",
+        "川虾虎"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-brunneus/1/adult",
+        "alt": "褐吻虾虎鱼雌性照片",
+        "caption": "褐吻虾虎鱼雌性",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "rhinogobius-brunneus/2/juvenile",
+          "alt": "褐吻虾虎鱼亚成体照片",
+          "caption": "褐吻虾虎鱼亚成体",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "rhinogobius-brunneus/3/adult",
+          "alt": "东北地区产褐吻虾虎鱼表现型照片",
+          "caption": "东北地区表现型",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "rhinogobius-brunneus/4/adult",
+          "alt": "北京产褐吻虾虎鱼表现型照片",
+          "caption": "北京地区表现型（高帆）",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "rhinogobius-formosanus",
+    "chineseName": "台湾吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius formosanus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "蓝色大肚子，宝石蓝颊纹，从胸鳍到尾鳍呈淡蓝色。",
+      "bodyShape": "",
+      "primaryColors": [
+        "淡蓝色"
+      ],
+      "patterns": [
+        "颊纹"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "蓝色大肚子",
+        "宝石蓝颊纹"
+      ],
+      "sexualDifferences": "雄鱼体侧鳞片中央有蓝色光泽；雌鱼在生殖季节时，腹部呈现明亮蓝色。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "台湾",
+        "福建"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "日本南部"
+      ],
+      "description": "主要分布在台湾、福建等地区。日本南部也有分布。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": 10,
+      "temperatureMaxC": 32,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "和褐吻大致相似。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "和褐吻大致相似。",
+      "reproduction": "产小卵，有较长时间的浮游期，幼鱼较小，难以在人工环境下繁殖。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "10-32",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "水温10-32度，扔个水妖精，不会死。胆子超大，会把小虾虎打的不出来，可以混养其他校霸虾虎。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "taiwan",
+        "fujian"
+      ],
+      "keywords": [
+        "台湾吻虾虎鱼",
+        "宝岛吻鲈"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-formosanus/1/adult",
+        "alt": "台湾吻虾虎鱼照片",
+        "caption": "台湾吻虾虎鱼",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-08-30"
+      }
+    ],
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "id": "rhinogobius-zhoui",
+    "chineseName": "周氏吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius zhoui",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "颜色五花八门，但真的太好辨认了。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "颜色五花八门"
+      ],
+      "sexualDifferences": "雄性吻长稍大于雌性。"
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "濒危物种，不建议打听产地。"
+    },
+    "habitat": {
+      "environment": [
+        "浅滩"
+      ],
+      "waterFlow": [],
+      "bottomType": [
+        "岩石"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "野外栖息地多为浅滩地带，且水体中有大块的岩石，少有植被覆盖。"
+    },
+    "ecology": {
+      "feedingBehavior": "杂食",
+      "food": [
+        "微型水生昆虫",
+        "小鱼",
+        "小虾"
+      ],
+      "behavior": "食性杂。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "困难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "经典好看的物种又少又难养；不建议任何新手养，养死就是损害已经濒危的种群。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "周氏吻虾虎鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-zhoui/1/adult",
+        "alt": "周氏吻虾虎鱼照片",
+        "caption": "周氏吻虾虎鱼组图",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-17"
+      }
+    ],
+    "lastUpdated": "2026-09-17"
+  },
+  {
+    "id": "rhinogobius-leavelli",
+    "chineseName": "李氏吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius leavelli",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 9.0,
+      "averageLengthCm": 7.0,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": "雄性吻长稍大于雌性；雄性颊部具浅红色斑点、鳃盖膜具橘色条纹，雌性不具有；雄性第一背鳍有蓝黑色斑块，雌性不具此特征。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "海南",
+        "四川",
+        "上海"
+      ],
+      "riverSystems": [
+        "钱塘江"
+      ],
+      "globalRegions": [],
+      "description": "钱塘江以南的各水系及海南地区，最新的考察中也在四川发现。为中国特有种。上海也有分布。"
+    },
+    "habitat": {
+      "environment": [
+        "溪流下游"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "暖水性小型底层鱼类，多见于溪流下游。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "暖水性小型底层鱼类；本种为淡水、两侧洄游生态习性，存在陆封种群。",
+      "reproduction": "卵较小，幼鱼具有浮游期，且个体较小。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "无食用价值。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "hainan",
+        "sichuan",
+        "shanghai",
+        "zhejiang"
+      ],
+      "keywords": [
+        "李氏吻虾虎鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-leavelli/1/adult",
+        "alt": "李氏吻虾虎鱼组图照片",
+        "caption": "李氏吻虾虎鱼各种表现型",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "https://www.bilibili.com/video/BV11b421i7FT/?spm_id_from=333.337.search-card.all.click&vd_source=4da3f5b3aee08478ab36645a13b5d739",
+        "organization": "Bilibili",
+        "accessDate": "2026-08-31"
+      }
+    ],
+    "lastUpdated": "2026-08-31"
+  },
+  {
+    "id": "rhinogobius-similis",
+    "chineseName": "真吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius similis",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "黄色鱼鳍太鲜艳了。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "黄色鱼鳍"
+      ],
+      "sexualDifferences": "雄性吻长稍大于雌性，上颌稍突出；雄性第二背鳍通常较雌性宽大；雄性第二背鳍和臀鳍边缘通常具外红内黄的斑纹，雌性不明显。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "福建",
+        "广东",
+        "海南"
+      ],
+      "riverSystems": [
+        "黄河",
+        "长江",
+        "钱塘江"
+      ],
+      "globalRegions": [],
+      "description": "几乎分布于我国除内蒙古和青藏外的地区，主要见于福建、广东、海南及黄河、长江、钱塘江等。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "真的啥地方都有。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "养不死，打架厉害。缸霸。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "fujian",
+        "guangdong",
+        "hainan",
+        "yellow-river",
+        "yangtze-river"
+      ],
+      "keywords": [
+        "真吻虾虎鱼",
+        "极乐吻虾虎鱼",
+        "子陵吻虾虎鱼",
+        "栉虾虎鱼",
+        "狗甘仔"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-similis/1/adult",
+        "alt": "真吻虾虎鱼侧面照片",
+        "caption": "真吻虾虎鱼",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "rhinogobius-similis/2/adult",
+          "alt": "真吻虾虎鱼张嘴和游动照片",
+          "caption": "真吻虾虎鱼近距离与游动",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "rhinogobius-duospilus",
+    "chineseName": "溪吻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Rhinogobius duospilus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "吻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "表型非常多。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "喉纹粗",
+        "背鳍高",
+        "颜色深"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "哪里都有，只要别太冷。"
+    },
+    "habitat": {
+      "environment": [
+        "河川"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "暖水性小型底层鱼类，栖息各淡水河川中。"
+    },
+    "ecology": {
+      "feedingBehavior": "肉食性",
+      "food": [
+        "小鱼",
+        "小型无脊椎动物"
+      ],
+      "behavior": "暖水性小型底层鱼类；为陆封型生态习性。",
+      "reproduction": "产大卵，幼鱼无浮游期。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "耐饿且不挑食。",
+      "specialRequirements": [
+        "需要氧气"
+      ],
+      "warning": "很推荐大家将溪吻作为新手的第一条底栖鱼，难度中等偏下；需要一定水质但没有那么高要求。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "溪吻虾虎鱼",
+        "白面虾虎"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhinogobius-duospilus/1/adult",
+        "alt": "溪吻虾虎鱼组图照片",
+        "caption": "溪吻虾虎鱼表现型与雌性",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "mugilogobius-myxodermus",
+    "chineseName": "粘皮鲻虾虎鱼",
+    "englishName": "",
+    "scientificName": "Mugilogobius myxodermus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "鲻虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "实物脸很方，去干圆筒形。",
+      "bodyShape": "圆筒形",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "脸方",
+        "第一背鳍能拉一点点丝"
+      ],
+      "sexualDifferences": "雄鱼背鳍外缘为鲜黄色，第一背鳍后侧有一黑色斑点。雌性颜色更深。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "台湾",
+        "上海"
+      ],
+      "riverSystems": [
+        "长江",
+        "九龙江",
+        "珠江"
+      ],
+      "globalRegions": [],
+      "description": "长江、九龙江和珠江等水系，最新的研究也在台湾地区有发现。为中国特有种；适应力强，是本属少数深入内陆的物种。"
+    },
+    "habitat": {
+      "environment": [
+        "河沟",
+        "池塘",
+        "江河",
+        "湖泊"
+      ],
+      "waterFlow": [
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "淡水底层小型鱼类，栖息于河沟和池塘中；栖息在江河湖泊的缓流区。"
+    },
+    "ecology": {
+      "feedingBehavior": "肉食性",
+      "food": [
+        "小鱼",
+        "无脊椎动物"
+      ],
+      "behavior": "淡水底层小型鱼类。",
+      "reproduction": "小卵型，幼鱼有浮游期。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "开口极其容易。",
+      "specialRequirements": [],
+      "warning": "没有要求，真养不死。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "cylindrical",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "yangtze-river",
+        "pearl-river",
+        "taiwan",
+        "shanghai"
+      ],
+      "keywords": [
+        "粘皮鲻虾虎鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "mugilogobius-myxodermus/1/adult",
+        "alt": "粘皮鲻虾虎鱼雌雄照片",
+        "caption": "粘皮鲻虾虎鱼与雌性",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-08-30"
+      }
+    ],
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "id": "stiphodon-atropurpureus",
+    "chineseName": "紫身枝桠虾虎鱼",
+    "englishName": "",
+    "scientificName": "Stiphodon atropurpureus",
+    "scientificAuthor": "Herre, 1927",
+    "taxonomy": {
+      "order": "虾虎鱼目",
+      "family": "背眼虾虎鱼科",
+      "genus": "枝桠虾虎鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 5,
+      "averageLengthCm": 4,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "底栖刮食"
+      ],
+      "waterType": [
+        "淡水",
+        "海水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体色靓丽的小型枝桠虾虎。",
+      "bodyShape": "",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "向下",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 2,
+      "tailShape": "",
+      "keyFeatures": [
+        "吻部朝下"
+      ],
+      "sexualDifferences": "雄性在繁殖期时第一背鳍为黑色加上橙色色带并蔓延到第二背鳍上，部分第二背鳍后端为青色色带，身体由一条青色金属纵带和黑色的网状格纹组成，臀鳍、尾鳍有青色外缘；雌性体色更朴素，米色底色的身体下有两条自吻部延伸至尾鳍基部的黑色纵带，尾鳍基部中间有一个长方形黑斑，背鳍和臀鳍上也有许多小黑点。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "海南",
+        "台湾",
+        "广东",
+        "深圳",
+        "香港"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "分布于海南，台湾东部和广东南部（深圳，香港一带）。"
+    },
+    "habitat": {
+      "environment": [
+        "溪流",
+        "海洋"
+      ],
+      "waterFlow": [
+        "流水"
+      ],
+      "bottomType": [
+        "细底砂",
+        "河砂",
+        "湖泊砂",
+        "岩石"
+      ],
+      "temperatureMinC": 18,
+      "temperatureMaxC": 28,
+      "phMin": 7.0,
+      "phMax": 7.5,
+      "dissolvedOxygen": "高溶氧",
+      "description": "通常生活在汇入大海的深山溪流中。"
+    },
+    "ecology": {
+      "feedingBehavior": "刮食藻类和碎屑",
+      "food": [
+        "藻类",
+        "有机物碎屑",
+        "丰年虾幼虫",
+        "贴片饲料"
+      ],
+      "behavior": "洄游性虾虎。",
+      "reproduction": "在玩家手里几乎无法繁殖（需要回到大海）。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "困难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": 27,
+      "recommendedTemperatureC": "18-28",
+      "feedingAdvice": "需要吃藻，曝藻需要用筒灯或水草灯照半个月到一个月；也需要吃丰年虾幼虫作为蛋白质的来源；可以放置贴片，但发色会差一点。",
+      "specialRequirements": [
+        "细底砂",
+        "大块造景石",
+        "壁挂过滤",
+        "造浪泵",
+        "打氧石",
+        "水草灯曝藻"
+      ],
+      "warning": "难度较高的物种，对水质的耐受程度，低温和食物的需求都是十分苛刻。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "marine"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "inferior",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "hainan",
+        "taiwan",
+        "guangdong",
+        "shenzhen",
+        "hongkong"
+      ],
+      "keywords": [
+        "紫身枝桠虾虎鱼",
+        "小型枝桠"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "stiphodon-atropurpureus/1/adult",
+        "alt": "紫身枝桠虾虎鱼雄性照片",
+        "caption": "紫身枝桠虾虎鱼雄性",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "stiphodon-atropurpureus/2/adult",
+          "alt": "紫身枝桠虾虎鱼雌性照片",
+          "caption": "紫身枝桠虾虎鱼雌性",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "背眼虾虎鱼科介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "channa-maculata",
+    "chineseName": "斑鳢",
+    "englishName": "Blotched Snakehead",
+    "scientificName": "Channa maculata",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鳢属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "底栖",
+        "炸水"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "身体较乌鳢短；体色偏灰白、偏黄；背鳍前方不隆起。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "灰白色",
+        "黄色"
+      ],
+      "patterns": [
+        "圆形斑纹",
+        "一八八字样纹路",
+        "眼后黑纹"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "身体较乌鳢短",
+        "背鳍前方不隆起",
+        "头部斑纹近似“一八八”字样",
+        "体侧斑纹近圆形，沿体侧作两行排列",
+        "由眼到胸鳍基部有一条明显的黑纹"
+      ],
+      "sexualDifferences": "雌雄繁殖期看生殖孔，大而突出是雌，小而微凹是雄。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "华南地区",
+        "海南岛",
+        "台湾"
+      ],
+      "riverSystems": [
+        "长江流域"
+      ],
+      "globalRegions": [],
+      "description": "主要分布在我国长江流域以南（特别是华南地区）、海南岛及台湾。"
+    },
+    "habitat": {
+      "environment": [
+        "静水",
+        "缓流"
+      ],
+      "waterFlow": [
+        "静水",
+        "缓流"
+      ],
+      "bottomType": [
+        "水草",
+        "淤泥"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "更喜欢温暖水域；常栖息于水草丛生、淤泥底质的静水或缓流环境。"
+    },
+    "ecology": {
+      "feedingBehavior": "炸水",
+      "food": [],
+      "behavior": "底栖肉食性鱼类，善于炸水。",
+      "reproduction": "有护幼习性。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "冬季停止进食。",
+      "specialRequirements": [
+        "需要水草一类的隐蔽物",
+        "温暖水域"
+      ],
+      "warning": "适应性极强，水质要求不高；不要和鲶鱼混养，两者会打个你死我活。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "circular-spots",
+        "stripes"
+      ],
+      "regions": [
+        "yangtze-river",
+        "hainan",
+        "taiwan"
+      ],
+      "keywords": [
+        "斑鳢",
+        "生鱼",
+        "斑鱼",
+        "黑鱼",
+        "广东黑鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "channa-maculata/1/adult",
+        "alt": "乌鳢与斑鳢对比图",
+        "caption": "乌鳢与斑鳢特征对比",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "channa-maculata/2/adult",
+          "alt": "乌鳢与斑鳢杂交及头部纹路对比图",
+          "caption": "杂交个体与头部纹路对比",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "鳢属 Channa spp.",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "channa-asiatica",
+    "chineseName": "月鳢",
+    "englishName": "Small Snakehead",
+    "scientificName": "Channa asiatica",
+    "scientificAuthor": "Linnaeus, 1758",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鳢属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 25,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "夜行性"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "眼后缘向后具二行黑纵纹，体侧具约十条「＜」型粉红橙色横纹，体侧尾鳍基有一眼状黑斑，背臀鳍膜淡灰绿至蓝绿色。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [
+        "黑纵纹",
+        "粉红橙色横纹",
+        "眼状黑斑"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "眼后缘向后具二行黑纵纹",
+        "体侧具约十条「＜」型粉红橙色横纹",
+        "体侧尾鳍基有一眼状黑斑"
+      ],
+      "sexualDifferences": "雄性月鳢头部较尖，繁殖期腹部较小。雌性月鳢头部较钝，腹部较大。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "海南岛",
+        "台湾",
+        "珠江"
+      ],
+      "riverSystems": [
+        "长江"
+      ],
+      "globalRegions": [],
+      "description": "长江流域及其以南至珠江和海南岛；台湾（易危）。"
+    },
+    "habitat": {
+      "environment": [
+        "沼泽"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "低",
+      "description": "生活在较浅的沼泽里；有上鰓器呼吸器可以直接浮上水面呼吸空气。"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "夜行性鱼类。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "有成熟人工养殖。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "stripes",
+        "eye-spot"
+      ],
+      "regions": [
+        "yangtze-river",
+        "pearl-river",
+        "hainan",
+        "taiwan"
+      ],
+      "keywords": [
+        "月鳢",
+        "亚洲裸鱼",
+        "亚洲鳢",
+        "七星鳢"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "channa-asiatica/1/adult",
+        "alt": "月鳢照片",
+        "caption": "月鳢",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "channa-asiatica/2/adult",
+          "alt": "月鳢全身照片",
+          "caption": "月鳢侧面",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "知乎：月鳢相关",
+        "url": "https://www.zhihu.com/question/317452699",
+        "organization": "知乎",
+        "accessDate": "2026-08-28"
+      },
+      {
+        "title": "Bilibili：月鳢文章",
+        "url": "https://www.bilibili.com/opus/577981982477692859?from=articleDetail",
+        "organization": "Bilibili",
+        "accessDate": "2026-08-28"
+      },
+      {
+        "title": "Greenflow：Channa asiatica",
+        "url": "https://www.greenflow.hk/products/channa-asiatica?variant=41357442154682",
+        "organization": "Greenflow",
+        "accessDate": "2026-08-28"
+      }
+    ],
+    "lastUpdated": "2026-08-28"
+  },
+  {
+    "id": "puntius-semifasciolatus",
+    "chineseName": "条纹小鲃",
+    "englishName": "Chinese Barb",
+    "scientificName": "Barbodes semifasciolatus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "鲃亚科",
+      "genus": "小鲃属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性",
+        "肉食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "身体偏长，两侧扁平，头尖眼大，吻上颌有一对触须；条纹小鲃有7-10条斑纹，且比较碎。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [],
+      "patterns": [
+        "碎斑纹"
+      ],
+      "mouthPosition": "",
+      "barbels": true,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "分叉形",
+      "keyFeatures": [
+        "身体偏长，两侧扁平",
+        "头尖眼大",
+        "吻上颌有一对触须",
+        "有7-10条斑纹，且比较碎"
+      ],
+      "sexualDifferences": ""
+    },
+    "distribution": {
+      "chinaRegions": [
+        "全国广泛分布",
+        "台湾"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "中国绝大多数区域；条纹小鲃分布在台湾南部。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": ""
+    },
+    "ecology": {
+      "feedingBehavior": "杂食",
+      "food": [
+        "黑壳虾",
+        "小型鱼类"
+      ],
+      "behavior": "有肉食性，对黑壳虾和小型鱼类有合体记录。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "极低",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "吃得多，拉得多。",
+      "specialRequirements": [
+        "过滤器（如果混养）"
+      ],
+      "warning": "饲养难度极低，三无缸（无灯，无底砂，无过滤器），定时换水也可以养好；建议与体型相当的鱼类混养。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": true,
+      "tailShape": "forked",
+      "patterns": [
+        "stripes"
+      ],
+      "regions": [
+        "taiwan"
+      ],
+      "keywords": [
+        "条纹小鲃",
+        "小鲃"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "puntius-semifasciolatus/1/adult",
+        "alt": "条纹小鲃野外水下照片",
+        "caption": "野外环境中的条纹小鲃",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "puntius-semifasciolatus/2/adult",
+          "alt": "史尼氏小鲃标本照片",
+          "caption": "史尼氏小鲃特征展示",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "puntius-semifasciolatus/3/adult",
+          "alt": "条纹小鲃清晰侧面照片",
+          "caption": "条纹小鲃的碎斑纹特征",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "Bilibili：条纹小鲃相关",
+        "url": "https://www.bilibili.com/opus/698928983205478405?from=search&spm_id_from=333.337.0.0",
+        "organization": "Bilibili",
+        "accessDate": "2026-09-02"
+      },
+      {
+        "title": "TaiBIF：条纹小鲃",
+        "url": "https://portal.taibif.tw/article/4111/",
+        "organization": "TaiBIF",
+        "accessDate": "2026-09-02"
+      }
+    ],
+    "lastUpdated": "2026-09-02"
+  },
+  {
+    "id": "gambusia-affinis",
+    "chineseName": "食蚊鱼",
+    "englishName": "Mosquitofish",
+    "scientificName": "Gambusia affinis",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": ""
+    },
+    "status": {
+      "nativeStatus": "入侵物种"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 5,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性",
+        "肉食性"
+      ],
+      "activity": [
+        "表层游动"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "体型极小（通常在3-5厘米），体色呈灰浅色至半透明，背部略显橄榄绿，鳞片边缘有明显的黑色网状纹路。",
+      "bodyShape": "细长型",
+      "primaryColors": [
+        "灰浅色",
+        "半透明",
+        "橄榄绿"
+      ],
+      "patterns": [
+        "黑色网状纹路"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "体型极小",
+        "鳞片边缘有明显黑色网状纹路",
+        "有着许多的表型"
+      ],
+      "sexualDifferences": "雌雄体型差异巨大。雄鱼体型较小且瘦长，臀鳍特化为长条状的交接器；雌鱼体型较大且腹部圆润，臀鳍短小呈扇形，同时腹部后方常有黑色“胎斑”。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "全国"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "全中国已极度泛滥，小区的观赏湖。"
+    },
+    "habitat": {
+      "environment": [
+        "观赏湖",
+        "各种水体"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "低",
+      "description": "极耐污染、低氧和温差。"
+    },
+    "ecology": {
+      "feedingBehavior": "杂食偏肉食，极具攻击性",
+      "food": [
+        "蚊子幼虫",
+        "鱼卵",
+        "幼鱼"
+      ],
+      "behavior": "杂食性，但偏好肉食；极具攻击性，大量吞食本土小型鱼类的鱼卵和幼鱼。",
+      "reproduction": "卵胎生，繁殖力极强，无需经历鱼卵孵化阶段，幼鱼出生即可游动。"
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "常和其他小雨（应为小鱼）混养，实际上会啃咬其他小型观赏鱼的鱼鳍。携带很多病菌，不建议当饲料鱼。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "net-like"
+      ],
+      "regions": [],
+      "keywords": [
+        "食蚊鱼",
+        "Mosquitofish"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "gambusia-affinis/1/adult",
+        "alt": "食蚊鱼与青鳉特征对比图",
+        "caption": "食蚊鱼（上）与青鳉（下）对比",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "入侵物种介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-04"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "id": "micropterus-salmoides",
+    "chineseName": "大口黑鲈",
+    "englishName": "Largemouth Bass",
+    "scientificName": "Micropterus salmoides",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": ""
+    },
+    "status": {
+      "nativeStatus": "入侵物种"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "伏击型"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "青绿色外表+黑色纵纹。",
+      "bodyShape": "",
+      "primaryColors": [
+        "青绿色"
+      ],
+      "patterns": [
+        "黑色纵纹"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "青绿色外表",
+        "黑色纵纹"
+      ],
+      "sexualDifferences": "外观上难以直接分辨。仅在繁殖期，雌鱼腹部会明显膨大变软，生殖乳突充血微红。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "全国"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "北美"
+      ],
+      "description": "原产于北美；目前在中国各地的淡水湖泊、水库、河流中均有广泛的野外定殖。"
+    },
+    "habitat": {
+      "environment": [
+        "湖泊",
+        "水库",
+        "河流"
+      ],
+      "waterFlow": [],
+      "bottomType": [
+        "水草",
+        "沉木",
+        "石块"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "典型的温水性鱼类，喜欢隐蔽在水草、沉木或石块等障碍物附近伏击猎物。"
+    },
+    "ecology": {
+      "feedingBehavior": "伏击，吞咽",
+      "food": [
+        "鱼类",
+        "虾类",
+        "蛙类",
+        "水鸟幼崽"
+      ],
+      "behavior": "性情凶猛，游速快，吞咽能力极强；作为顶级中小型水域掠食者，大量吞食本土生物，破坏食物链。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "不要往河里放流，不仅污染水质散播病菌，还会把其他鱼吃绝。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "stripes"
+      ],
+      "regions": [],
+      "keywords": [
+        "大口黑鲈",
+        "Largemouth Bass"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "micropterus-salmoides/1/adult",
+        "alt": "大口黑鲈张开大嘴的照片",
+        "caption": "大口黑鲈及其巨大的口部",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "入侵物种介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-04"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "id": "lepomis-macrochirus",
+    "chineseName": "蓝鳃太阳鱼",
+    "englishName": "Bluegill",
+    "scientificName": "Lepomis macrochirus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": ""
+    },
+    "status": {
+      "nativeStatus": "入侵物种"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性",
+        "肉食性"
+      ],
+      "activity": [
+        "群聚"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "体高且极其侧扁，形似盘子。最显著的特征是鳃盖骨后缘有一块突出的深蓝色或黑色“耳盖”。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [
+        "橄榄绿",
+        "灰色",
+        "橘红色",
+        "亮黄色"
+      ],
+      "patterns": [
+        "垂直暗纹",
+        "鳃盖耳斑"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "形似盘子",
+        "背鳍硬棘发达",
+        "鳃盖骨后缘有深蓝色或黑色耳盖",
+        "体侧常有垂直暗纹"
+      ],
+      "sexualDifferences": "雄鱼在繁殖期体色十分华丽，胸部和腹部会呈现夺目的橘红色或亮黄色；雌鱼体色整体偏暗淡，以橄榄绿和灰色为主。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "南方"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "北美"
+      ],
+      "description": "原产北美；现已在中国南方水系、大型水库及部分人工湖中广泛建立野外种群。"
+    },
+    "habitat": {
+      "environment": [
+        "水库",
+        "人工湖",
+        "水系",
+        "浅水区"
+      ],
+      "waterFlow": [],
+      "bottomType": [
+        "水草"
+      ],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "喜群聚栖息于水草丰茂的浅水区。"
+    },
+    "ecology": {
+      "feedingBehavior": "杂食偏肉食",
+      "food": [
+        "鱼卵",
+        "经济鱼类",
+        "原生鱼"
+      ],
+      "behavior": "极具领地意识和攻击性；喜群聚。",
+      "reproduction": "雄鱼具有强烈的筑巢和护卵习性，繁殖成活率高；凭借护巢优势大量繁殖。"
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "常被误认为是好看的本土变种或高档观赏鱼，因体型不大，常被低估其生态破坏力。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "stripes",
+        "ear-flap"
+      ],
+      "regions": [],
+      "keywords": [
+        "蓝鳃太阳鱼",
+        "Bluegill"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "lepomis-macrochirus/1/adult",
+        "alt": "蓝鳃太阳鱼侧面照片",
+        "caption": "蓝鳃太阳鱼外观特征",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "入侵物种介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-04"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "id": "oreochromis-niloticus",
+    "chineseName": "尼罗口孵鱼",
+    "englishName": "Nile Tilapia",
+    "scientificName": "Oreochromis niloticus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "慈鲷科",
+      "genus": "口孵非鲫属"
+    },
+    "status": {
+      "nativeStatus": "入侵物种"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水",
+        "汽水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "体高侧扁，背鳍极长，满布硬棘。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [],
+      "patterns": [
+        "垂直黑条纹",
+        "网纹"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "平直",
+      "keyFeatures": [
+        "体侧有明显的数条垂直黑色条纹",
+        "尾鳍后缘平直，满布清晰的垂直黑色网纹或条纹"
+      ],
+      "sexualDifferences": "雄鱼体型通常显著大于雌鱼，繁殖期下颌、胸腹部及各鳍边缘会呈现艳丽的红色；雌鱼颜色暗淡。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "南方",
+        "广东",
+        "广西",
+        "福建",
+        "海南"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "非洲"
+      ],
+      "description": "原产非洲；在中国南方（特别是广东、广西、福建、海南）的江河湖泊几乎无处不在。"
+    },
+    "habitat": {
+      "environment": [
+        "江河",
+        "湖泊"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "极低",
+      "description": "耐高污染和极低溶氧，甚至能在微咸水（汽水）中生存。"
+    },
+    "ecology": {
+      "feedingBehavior": "杂食，挖掘",
+      "food": [
+        "水草",
+        "浮游生物",
+        "底栖生物"
+      ],
+      "behavior": "杂食性极强；有排泄和挖掘行为，使水质浑浊。",
+      "reproduction": "采用“口孵”方式繁殖——雌鱼将受精卵含在嘴里孵化直到幼鱼有游动能力。"
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "恐怖的繁殖力和口孵机制使其能迅速霸占整个水体，导致本土鱼类彻底绝迹。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater",
+        "brackish"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "truncate",
+      "patterns": [
+        "stripes"
+      ],
+      "regions": [
+        "guangdong",
+        "guangxi",
+        "fujian",
+        "hainan"
+      ],
+      "keywords": [
+        "尼罗口孵鱼",
+        "罗非鱼",
+        "尼罗罗非鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "oreochromis-niloticus/1/adult",
+        "alt": "尼罗口孵鱼携带幼鱼的照片",
+        "caption": "尼罗口孵鱼与鱼群",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "入侵物种介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-04"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "id": "atractosteus-spatula",
+    "chineseName": "鳄雀鳝",
+    "englishName": "Alligator Gar",
+    "scientificName": "Atractosteus spatula",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": ""
+    },
+    "status": {
+      "nativeStatus": "入侵物种"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "肉食性"
+      ],
+      "activity": [
+        "伏击型"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "外观极具辨识度，吻部修长突出，上下颌布满交错的锋利牙齿，形似鳄鱼。",
+      "bodyShape": "修长",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "长吻",
+      "barbels": false,
+      "scaleType": "硬鳞",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "吻部修长突出，布满锋利牙齿",
+        "身体覆盖菱形珐琅质硬鳞",
+        "背鳍和臀鳍位置极度靠后"
+      ],
+      "sexualDifferences": "表面基本无差异。同年龄段下，雌鱼体型通常比雄鱼更粗壮庞大。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "各大城市"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "北美洲南部",
+        "墨西哥湾"
+      ],
+      "description": "原产北美洲南部及墨西哥湾；在中国频繁现身于各大城市的公园湖泊、小区水景和自然河流中。"
+    },
+    "habitat": {
+      "environment": [
+        "公园湖泊",
+        "小区水景",
+        "河流",
+        "死水"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "极低",
+      "description": "能在极度缺氧的死水中存活。"
+    },
+    "ecology": {
+      "feedingBehavior": "伏击",
+      "food": [],
+      "behavior": "能利用特化的鱼鳔直接呼吸空气；伏击型肉食鱼，通过侧面摆动头部瞬间咬合猎物；生长极其迅速。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "困难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "长到一米多长无法饲养；鱼子剧毒，清理硬鳞极度困难，不可食用。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "鳄雀鳝",
+        "Alligator Gar",
+        "尖嘴鳄",
+        "清道夫（误称）"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "atractosteus-spatula/1/adult",
+        "alt": "鳄雀鳝全身照片",
+        "caption": "鳄雀鳝长相与特征",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "入侵物种介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-04"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "id": "clarias-gariepinus",
+    "chineseName": "埃及塘鲺",
+    "englishName": "African Sharptooth Catfish",
+    "scientificName": "Clarias gariepinus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": ""
+    },
+    "status": {
+      "nativeStatus": "入侵物种"
+    },
+    "basicInfo": {
+      "maximumLengthCm": null,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "身体前部圆筒形，后部侧扁。头部极其坚硬，覆有骨板。",
+      "bodyShape": "前圆后侧扁",
+      "primaryColors": [
+        "黑褐色",
+        "灰黑色",
+        "白色"
+      ],
+      "patterns": [],
+      "mouthPosition": "宽阔",
+      "barbels": true,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "小圆鳍",
+      "keyFeatures": [
+        "有4对（8根）长触须",
+        "背鳍极长（无硬棘），几乎延伸至尾鳍基部",
+        "尾巴是小圆鳍"
+      ],
+      "sexualDifferences": "最显著的差异在于生殖器：雄鱼的生殖乳突呈突出的尖长管状；雌鱼的生殖乳突则短而圆钝。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "南方"
+      ],
+      "riverSystems": [],
+      "globalRegions": [
+        "非洲"
+      ],
+      "description": "原产非洲；目前在南方各大水系、下水道、化粪池及自然河道中广泛存在。"
+    },
+    "habitat": {
+      "environment": [
+        "水系",
+        "下水道",
+        "化粪池",
+        "河道",
+        "泥浆"
+      ],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "极低",
+      "description": "能在泥浆中甚至完全离开水存活较长时间。极度耐受恶劣和高氨氮水质。"
+    },
+    "ecology": {
+      "feedingBehavior": "杂食底栖",
+      "food": [
+        "鱼虾",
+        "水生昆虫",
+        "腐肉"
+      ],
+      "behavior": "拥有特殊的鳃上辅助呼吸器官（枝鳃），食量惊人；大量占据底层水域生态位。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "恐怖的适应力和繁衍力严重挤压本土鱼类生存空间。只有塘鲺是下水道战神，本土鲶鱼是对水质很有要求的鱼类。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "",
+      "barbels": true,
+      "tailShape": "rounded",
+      "patterns": [],
+      "regions": [
+        "south-china"
+      ],
+      "keywords": [
+        "埃及塘鲺",
+        "革胡子鲶",
+        "下水道战神"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "clarias-gariepinus/1/adult",
+        "alt": "埃及塘鲺与本土鲶鱼的对比照片",
+        "caption": "埃及塘鲺与鲶鱼特征对比",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "clarias-gariepinus/2/adult",
+          "alt": "水中游动的钳鱼照片",
+          "caption": "烤鱼之王：钳鱼",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "sources": [
+      {
+        "title": "入侵物种介绍",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-09-04"
+      }
+    ],
+    "lastUpdated": "2026-09-04"
+  },
+  {
+    "id": "acheilognathus-macropterus",
+    "chineseName": "大鳍鱊",
+    "englishName": "",
+    "scientificName": "Acheilognathus macropterus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鱊属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 18,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "鱊亚科最大种，体大而薄呈单调银白色。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [
+        "银白色"
+      ],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "体大而薄",
+        "单调银白色"
+      ],
+      "sexualDifferences": "成熟雄性体表带淡橙色，臀鳍边缘具白色带。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "黑龙江",
+        "海南岛"
+      ],
+      "riverSystems": [
+        "珠江"
+      ],
+      "globalRegions": [
+        "朝鲜",
+        "俄罗斯",
+        "越南",
+        "日本"
+      ],
+      "description": "在国内广泛分布于黑龙江至珠江间及海南岛各水系，国外分布于朝鲜、俄罗斯、越南等。随珍珠养殖入侵日本。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": ""
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "据说这位的生长还有变态的特征。",
+      "reproduction": "4-6月繁殖。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "饲养难度较低，属于入门后的练级物种。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "大鳍鱊",
+        "葫芦子",
+        "杨树叶"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "acheilognathus-macropterus/1/adult",
+        "alt": "大鳍鱊手捧照片",
+        "caption": "大鳍鱊成体照片",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "acheilognathus-typus",
+    "chineseName": "细鳞鱊",
+    "englishName": "",
+    "scientificName": "Acheilognathus typus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鱊属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 12,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "具鱊类中最细鳞片（边缘黑色）。这个属于是日本代表鳑鲏。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [],
+      "patterns": [
+        "鳞片边缘黑色"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "最细鳞片",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "无须",
+        "具鱊类中最细鳞片"
+      ],
+      "sexualDifferences": "繁殖季雄性头部及腹部呈粉紫色，雌性产卵管深黑色。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "长江中下游"
+      ],
+      "riverSystems": [
+        "沅江",
+        "长江水系"
+      ],
+      "globalRegions": [
+        "日本"
+      ],
+      "description": "阮江（沅江），长江中下游水系。目前易危，不适合野采了。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": ""
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "",
+      "reproduction": "秋季产卵，幼鱼在河蚌内越冬。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "中等",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "需要有一定的鳑鲏饲养经验；日本有大神已经实现人工繁殖，国内也有售卖的人工个体。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "yangtze-river"
+      ],
+      "keywords": [
+        "细鳞鱊",
+        "日本代表鳑鲏"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "acheilognathus-typus/1/adult",
+        "alt": "细鳞鱊侧面照片",
+        "caption": "细鳞鱊展示图",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "acheilognathus-typus/2/adult",
+          "alt": "两只细鳞鱊游动照片",
+          "caption": "细鳞鱊游动",
+          "source": "",
+          "license": ""
+        },
+        {
+          "src": "acheilognathus-typus/3/adult",
+          "alt": "水中细鳞鱊照片",
+          "caption": "水族箱中的细鳞鱊",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "rhodeus-sinensis",
+    "chineseName": "中华鳑鲏",
+    "englishName": "",
+    "scientificName": "Rhodeus sinensis",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鳑鲏属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 5,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "体侧扁呈菱形，3-5cm。",
+      "bodyShape": "菱形侧扁",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "体侧扁呈菱形"
+      ],
+      "sexualDifferences": "雄鱼繁殖期具蓝绿红金属光泽及黑边，雌鱼暗淡具长产卵管。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "全国广泛分布"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "哪里都有。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": ""
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "打架狂魔。",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "极低",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "养不死，战神,究极打架狂魔。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [],
+      "keywords": [
+        "中华鳑鲏",
+        "战神"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhodeus-sinensis/1/adult",
+        "alt": "中华鳑鲏发色侧面照片",
+        "caption": "雄性发色的中华鳑鲏",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "rhodeus-sinensis/2/adult",
+          "alt": "两只中华鳑鲏对比照片",
+          "caption": "中华鳑鲏个体特征对比",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "rhodeus-albomarginatus",
+    "chineseName": "白边鳑鲏",
+    "englishName": "",
+    "scientificName": "Rhodeus albomarginatus",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鳑鲏属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 5.8,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "体呈菱形侧扁且圆润偏黄，长约 5.8cm，白边各地区地理分化出来红腹，黄腹。",
+      "bodyShape": "菱形侧扁",
+      "primaryColors": [
+        "黄色"
+      ],
+      "patterns": [
+        "鱼鳍白边"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "背/臀/腹鳍边缘具明显白边"
+      ],
+      "sexualDifferences": "雄鱼腹部红橙，背/臀/腹鳍边缘具明显白边，雌鱼暗淡。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "安徽"
+      ],
+      "riverSystems": [
+        "鄱阳湖流域",
+        "赣江流域",
+        "阊江",
+        "长江水系"
+      ],
+      "globalRegions": [],
+      "description": "中国鄱阳湖及赣江流域，具体分布于安徽阊江（流入鄱阳湖的一条支流），属长江水系。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": ""
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "极低",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "养不死二号；可玩性很高。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "white-margin"
+      ],
+      "regions": [
+        "anhui",
+        "yangtze-river"
+      ],
+      "keywords": [
+        "白边鳑鲏",
+        "红腹",
+        "黄腹"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhodeus-albomarginatus/1/adult",
+        "alt": "白边鳑鲏发色侧面照片",
+        "caption": "具有明显白边的雄性",
+        "source": "",
+        "license": ""
+      },
+      "gallery": [
+        {
+          "src": "rhodeus-albomarginatus/2/adult",
+          "alt": "白边鳑鲏雌雄对比照片",
+          "caption": "白边鳑鲏雌雄对比（A雄 B雌）",
+          "source": "",
+          "license": ""
+        }
+      ]
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "rhodeus-fangi",
+    "chineseName": "方氏鳑鲏",
+    "englishName": "",
+    "scientificName": "Rhodeus fangi",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "鳑鲏属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 6.5,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "头部宽圆吻尖，尾柄带银蓝色条纹。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [],
+      "patterns": [
+        "银蓝色条纹"
+      ],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "头部宽圆吻尖",
+        "尾柄带银蓝色条纹"
+      ],
+      "sexualDifferences": "雄鱼繁殖季极鲜艳且各鳍发达，雌鱼体色淡雅腹部圆润。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "南方"
+      ],
+      "riverSystems": [
+        "黑龙江",
+        "黄河",
+        "长江",
+        "珠江"
+      ],
+      "globalRegions": [
+        "俄罗斯",
+        "越南"
+      ],
+      "description": "广布于中国南方及各大水系，具体包括黑龙江、黄河、长江和珠江等水系。在国外分布于俄罗斯、越南等。"
+    },
+    "habitat": {
+      "environment": [],
+      "waterFlow": [],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": ""
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "饲养难度十分简单，和高体差不多。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [
+        "blue-stripes"
+      ],
+      "regions": [
+        "yellow-river",
+        "yangtze-river",
+        "pearl-river"
+      ],
+      "keywords": [
+        "方氏鳑鲏"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "rhodeus-fangi/1/adult",
+        "alt": "方氏鳑鲏侧面水下照片",
+        "caption": "方氏鳑鲏成体",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "sinorhodeus-microlepis",
+    "chineseName": "细鳞华鳑鲏",
+    "englishName": "",
+    "scientificName": "Sinorhodeus microlepis",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "华鳑鲏属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 5.8,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [
+        "集群"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "具鳑鲏中极细小鳞片。",
+      "bodyShape": "侧扁型",
+      "primaryColors": [
+        "红色"
+      ],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "极细小鳞片",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [
+        "具鳑鲏中极细小鳞片"
+      ],
+      "sexualDifferences": "雄鱼发色呈夺目的红彤彤“火山”色，雌鱼排卵会挂在泄殖孔外端。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "四川"
+      ],
+      "riverSystems": [],
+      "globalRegions": [],
+      "description": "中国特有种，分布于四川。"
+    },
+    "habitat": {
+      "environment": [
+        "回水湾"
+      ],
+      "waterFlow": [
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "喜集群栖息于回水湾缓流处."
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "喜集群",
+      "reproduction": "雌鱼排卵会挂在泄殖孔外端。"
+    },
+    "care": {
+      "suitableForAquarium": false,
+      "difficulty": "极难",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "不要购买，作为华鳑鲏的独.目前没有任何人工养殖，买的全部都是野生，基本养不活。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "sichuan"
+      ],
+      "keywords": [
+        "细鳞华鳑鲏",
+        "火山色"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "sinorhodeus-microlepis/1/adult",
+        "alt": "细鳞华鳑鲏雌雄对比照片",
+        "caption": "雄性发色（A）与雌性（B）对比",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "paratanakia-chii",
+    "chineseName": "齐氏副田中鱊",
+    "englishName": "",
+    "scientificName": "Paratanakia chii",
+    "scientificAuthor": "",
+    "taxonomy": {
+      "order": "",
+      "family": "",
+      "genus": "副田中鱊属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 5.6,
+      "averageLengthCm": null,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性"
+      ],
+      "activity": [],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": []
+    },
+    "appearance": {
+      "summary": "为温带淡水鱼",
+      "bodyShape": "侧扁型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "",
+      "keyFeatures": [],
+      "sexualDifferences": "雄性发色鲜艳，雌鱼体色暗淡"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "大陆",
+        "台湾",
+        "浙江",
+        "福建",
+        "上海"
+      ],
+      "riverSystems": [
+        "钱塘江水系"
+      ],
+      "globalRegions": [],
+      "description": "几乎做到了全国广布：大陆及台湾低海拔水流平缓沟渠中，具体分布于浙江金华兰溪钱塘江水系、台湾北部低海拔之河川湖沼。有名的有汕尾齐，泉州齐，甚至上海也有。"
+    },
+    "habitat": {
+      "environment": [
+        "沟渠",
+        "河川",
+        "湖沼"
+      ],
+      "waterFlow": [
+        "缓流"
+      ],
+      "bottomType": [],
+      "temperatureMinC": null,
+      "temperatureMaxC": null,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "低海拔水流平缓沟渠中"
+    },
+    "ecology": {
+      "feedingBehavior": "",
+      "food": [],
+      "behavior": "打架狂魔",
+      "reproduction": ""
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "中等",
+      "beginnerFriendly": false,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "",
+      "feedingAdvice": "",
+      "specialRequirements": [],
+      "warning": "据说也是打架狂魔，很适合有点实力的鱼友饲养。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "compressed",
+      "mouthPosition": "",
+      "barbels": false,
+      "tailShape": "",
+      "patterns": [],
+      "regions": [
+        "taiwan",
+        "zhejiang",
+        "fujian",
+        "shanghai"
+      ],
+      "keywords": [
+        "齐氏副田中鱊",
+        "齐氏石鲋",
+        "齐氏田中鳑鲏",
+        "汕尾齐",
+        "泉州齐"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "paratanakia-chii/1/adult",
+        "alt": "多只齐氏副田中鱊水下照片",
+        "caption": "齐氏副田中鱊群游",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "lastUpdated": "2026-10-04"
+  },
+  {
+    "id": "garra-orientalis",
+    "chineseName": "东方墨头鱼",
+    "englishName": "Oriental Garra",
+    "scientificName": "Garra orientalis",
+    "scientificAuthor": "Nichols, 1925",
+    "taxonomy": {
+      "order": "鲤形目",
+      "family": "鲤科",
+      "genus": "墨头鱼属"
+    },
+    "status": {
+      "nativeStatus": "中国原生"
+    },
+    "basicInfo": {
+      "maximumLengthCm": 20,
+      "averageLengthCm": 12,
+      "lifespanYears": null,
+      "diet": [
+        "杂食性",
+        "藻食性"
+      ],
+      "activity": [
+        "底栖"
+      ],
+      "waterType": [
+        "淡水"
+      ],
+      "waterLayer": [
+        "底层"
+      ]
+    },
+    "appearance": {
+      "summary": "属于底栖鱼类，成鱼体长可达12厘米到20厘米。",
+      "bodyShape": "细长型",
+      "primaryColors": [],
+      "patterns": [],
+      "mouthPosition": "下位",
+      "barbels": false,
+      "scaleType": "",
+      "dorsalFinCount": 1,
+      "tailShape": "分叉形",
+      "keyFeatures": [
+        "头部有“角”（吻部突起）[cite: 18]"
+      ],
+      "sexualDifferences": "雌雄的主要区别在于头部的“角”（吻部突起）。雄鱼在繁殖季节会长出明显的角，并用其进行相互打斗。"
+    },
+    "distribution": {
+      "chinaRegions": [
+        "南方",
+        "海南岛"
+      ],
+      "riverSystems": [
+        "闽江",
+        "珠江流域"
+      ],
+      "globalRegions": [],
+      "description": "分布于中国南方亚热带地区的水系，主要包括闽江、珠江流域以及海南岛。"
+    },
+    "habitat": {
+      "environment": [
+        "河床"
+      ],
+      "waterFlow": [],
+      "bottomType": [
+        "沙子"
+      ],
+      "temperatureMinC": 16,
+      "temperatureMaxC": 34,
+      "phMin": null,
+      "phMax": null,
+      "dissolvedOxygen": "",
+      "description": "它们通常栖息在靠近河床的底部环境,适应温度广（16℃ - 34℃的适中温度即可）。"
+    },
+    "ecology": {
+      "feedingBehavior": "啃食藻类与挖掘",
+      "food": [
+        "藻类",
+        "人工鱼饲料",
+        "红虫",
+        "食物残渣"
+      ],
+      "behavior": "具有一定的领地意识，但一般不会攻击其他品种的鱼；在鱼缸中性格较为胆小害羞,日常会啃食底材上的藻类，并且有挖掘底砂的习惯。",
+      "reproduction": "雄鱼在繁殖季节会长出明显的角，并用其进行相互打斗。"
+    },
+    "care": {
+      "suitableForAquarium": true,
+      "difficulty": "容易",
+      "beginnerFriendly": true,
+      "minimumTankLiters": null,
+      "recommendedTemperatureC": "16-34",
+      "feedingAdvice": "它们更偏爱吃人工鱼饲料和红虫，虽然它们会吃藻类和食物残渣，但不能单纯把它们当成除藻的“工具鱼”。",
+      "specialRequirements": [
+        "冬季需要配备加热棒",
+        "底材建议使用沙子",
+        "提供长有藻类的环境供其啃食",
+        "鱼缸必须加装盖子"
+      ],
+      "warning": "极其重要的一点：鱼缸必须加装盖子以防止它们跳缸。受惊或活跃时极易跳缸。一个60厘米长的鱼缸适合饲养4到5条。"
+    },
+    "identification": {
+      "waterType": [
+        "freshwater"
+      ],
+      "bodyShape": "elongated",
+      "mouthPosition": "inferior",
+      "barbels": false,
+      "tailShape": "forked",
+      "patterns": [],
+      "regions": [
+        "fujian",
+        "pearl-river",
+        "hainan"
+      ],
+      "keywords": [
+        "东方墨头鱼",
+        "墨头鱼"
+      ]
+    },
+    "images": {
+      "cover": {
+        "src": "garra-orientalis/1/adult",
+        "alt": "东方墨头鱼侧面照片",
+        "caption": "东方墨头鱼成体",
+        "source": "",
+        "license": ""
+      },
+      "gallery": []
+    },
+    "sources": [
+      {
+        "title": "墨头鱼",
+        "url": "",
+        "organization": "内部文档",
+        "accessDate": "2026-10-04"
+      }
+    ],
+    "lastUpdated": "2026-10-04"
   }
 ]
