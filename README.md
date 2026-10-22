@@ -15,6 +15,33 @@
 
 ![CLFishbase homepage with an underwater hero, Chinese navigation and entry points](docs/images/home.png)
 
+## Table of contents
+
+- [Project overview](#project-overview)
+- [At a glance](#at-a-glance)
+- [Product walkthrough](#product-walkthrough)
+  - [Searchable fish database](#1-searchable-fish-database)
+  - [Appearance-based species finder](#2-appearance-based-species-finder)
+  - [Reusable fish profiles](#3-reusable-fish-profiles)
+  - [Structured freshwater care guide](#4-structured-freshwater-care-guide)
+  - [Project context and data transparency](#5-project-context-and-data-transparency)
+- [Core interaction design](#core-interaction-design)
+  - [State and filtering](#state-and-filtering)
+  - [Navigation without a routing dependency](#navigation-without-a-routing-dependency)
+- [Data model](#data-model)
+- [Component architecture](#component-architecture)
+- [Visual system and accessibility](#visual-system-and-accessibility)
+- [Technical stack](#technical-stack)
+- [Run locally](#run-locally)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Available scripts](#available-scripts)
+- [Reliability and data integrity](#reliability-and-data-integrity)
+- [Content and asset note](#content-and-asset-note)
+- [Design and engineering decisions](#design-and-engineering-decisions)
+- [Future development](#future-development)
+- [Portfolio focus](#portfolio-focus)
+
 ## Project overview
 
 CLFishbase is a Chinese-language fish reference and learning website built as a portfolio project with React, Vite and plain CSS. It turns a structured local JSON file into an explorable interface instead of relying on a backend or a third-party data API.
