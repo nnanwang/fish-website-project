@@ -17,30 +17,37 @@
 
 ## Table of contents
 
-- [Project overview](#project-overview)
-- [At a glance](#at-a-glance)
-- [Product walkthrough](#product-walkthrough)
-  - [Searchable fish database](#1-searchable-fish-database)
-  - [Appearance-based species finder](#2-appearance-based-species-finder)
-  - [Reusable fish profiles](#3-reusable-fish-profiles)
-  - [Structured freshwater care guide](#4-structured-freshwater-care-guide)
-  - [Project context and data transparency](#5-project-context-and-data-transparency)
-- [Core interaction design](#core-interaction-design)
-  - [State and filtering](#state-and-filtering)
-  - [Navigation without a routing dependency](#navigation-without-a-routing-dependency)
-- [Data model](#data-model)
-- [Component architecture](#component-architecture)
-- [Visual system and accessibility](#visual-system-and-accessibility)
-- [Technical stack](#technical-stack)
-- [Run locally](#run-locally)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Available scripts](#available-scripts)
-- [Reliability and data integrity](#reliability-and-data-integrity)
-- [Content and asset note](#content-and-asset-note)
-- [Design and engineering decisions](#design-and-engineering-decisions)
-- [Future development](#future-development)
-- [Portfolio focus](#portfolio-focus)
+- [CLFishbase · 中国原生鱼类网站](#clfishbase--中国原生鱼类网站)
+  - [Table of contents](#table-of-contents)
+  - [Project overview](#project-overview)
+  - [At a glance](#at-a-glance)
+  - [Product walkthrough](#product-walkthrough)
+    - [1. Searchable fish database](#1-searchable-fish-database)
+    - [2. Appearance-based species finder](#2-appearance-based-species-finder)
+    - [3. Reusable fish profiles](#3-reusable-fish-profiles)
+    - [4. Structured freshwater care guide](#4-structured-freshwater-care-guide)
+      - [Guide landing page](#guide-landing-page)
+      - [Preparation topic page](#preparation-topic-page)
+      - [Aquarium ecosystem topic page](#aquarium-ecosystem-topic-page)
+      - [Routine maintenance topic page](#routine-maintenance-topic-page)
+      - [Health topic page](#health-topic-page)
+    - [5. Project context and data transparency](#5-project-context-and-data-transparency)
+  - [Core interaction design](#core-interaction-design)
+    - [State and filtering](#state-and-filtering)
+    - [Navigation without a routing dependency](#navigation-without-a-routing-dependency)
+  - [Data model](#data-model)
+  - [Component architecture](#component-architecture)
+  - [Visual system and accessibility](#visual-system-and-accessibility)
+  - [Technical stack](#technical-stack)
+  - [Run locally](#run-locally)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Available scripts](#available-scripts)
+  - [Reliability and data integrity](#reliability-and-data-integrity)
+  - [Content and asset note](#content-and-asset-note)
+  - [Design and engineering decisions](#design-and-engineering-decisions)
+  - [Future development](#future-development)
+  - [Portfolio focus](#portfolio-focus)
 
 ## Project overview
 
@@ -104,10 +111,46 @@ The guide is divided into four focused routes rather than one oversized article:
 - 日常维护 · Routine maintenance
 - 鱼类健康观察 · Fish health observation
 
-Topic cards open dedicated reading views with their own section navigation. Fish recommendations reuse the visual language of the database cards and connect to corresponding fish profiles where data is available. The FAQ remains part of the guide rather than pretending to be a community or backend-supported Q&A system.
+Topic cards open dedicated reading views with a local directory containing only that topic's subsections. Fish recommendations are rendered as non-interactive, text-only cards directly from the supplied guide content; they do not depend on `fishData.json` or added species images. The FAQ remains part of the guide rather than pretending to be a community or backend-supported Q&A system.
+
+#### Guide landing page
+
+The landing page uses a responsive two-column topic grid. Each cover card opens one focused reading route, and the same cover image is reused in that route's Hero so the relationship between the landing page and child page stays visually clear.
 
 <img width="1232" height="867" alt="image" src="https://github.com/user-attachments/assets/63f76270-900a-4ea0-8b30-3855666e3366" />
-<img width="1044" height="827" alt="image" src="https://github.com/user-attachments/assets/55406920-3c36-487a-a1d7-dfb48b0e9036" />
+
+#### Preparation topic page
+
+The preparation route establishes the child-page hierarchy with a guide breadcrumb and a topic-specific Hero. Its local left directory links only to sections in the current topic. Dense reference material is broken into lighter teaching patterns: four selection standards use pale cards, while the five difficulty levels use accessible filled and empty star symbols.
+
+![alt text](image.png)
+
+Recommendation groups preserve the wording and fish names from the supplied guide. They remain compact, text-only reference cards: no unavailable image, invented profile or unsupported link is added, and guide recommendations are intentionally kept separate from the species database.
+
+#### Aquarium ecosystem topic page
+
+The aquarium ecosystem route explains cycling as a staged biological process rather than a one-time tank setup. Its topic-only directory links to the nitrogen-cycle steps, a four-week cycling schedule, filtration roles, filter selection and equipment examples for different tank sizes.
+
+![alt text](image-4.png)
+
+The page keeps the long-form technical guidance readable through short sections, ordered steps and separated equipment notes. Its Hero reuses the ecosystem cover from the guide landing card, while the breadcrumb makes the parent–child relationship visible.
+
+#### Routine maintenance topic page
+
+The maintenance route focuses on recurring care: target water parameters, testing frequency, the water-change workflow and six common beginner mistakes. The left directory contains only these subsections, so selecting this guide card never exposes unrelated topics on the same page.
+
+![Routine maintenance guide topic page with a matching Hero cover and focused maintenance sections](docs/images/guide-maintenance.png)
+
+The responsive reading layout pairs a compact sticky directory with a wider article column on large screens, then simplifies the layout for narrower viewports. Previous- and next-topic links let readers continue through the guide without returning to the landing page first.
+
+#### Health topic page
+
+The health route turns the eight observable stress signals into blue cards with aqua accents, making individual signs easier to scan. Common conditions use light cards with prominent condition names and a responsive three-column layout that reduces to two and then one column as the viewport narrows.
+
+![alt text](image-1.png)
+![Fish health guide topic page with stress-signal cards and a responsive common-condition grid](docs/images/guide-health.png)
+
+Only content related to the selected topic is rendered on each child page. The complete FAQ is kept below the guide landing page's “还有具体问题？” section, while the health topic focuses on observation, diagnosis order, common conditions and medication principles.
 
 ### 5. Project context and data transparency
 
@@ -129,8 +172,13 @@ flowchart LR
     CARD --> DETAIL[FishDetail]
     JSON --> FINDER[SpeciesFinder]
     FINDER --> CARD
-    GUIDE[guideData.js] --> TOPICS[Guide topic pages]
-    TOPICS --> DETAIL
+    GUIDE[guideData.js] --> LANDING[Guide landing page]
+    GUIDE --> TOPICS[Guide topic pages]
+    COVERS[guideImages.js] --> LANDING
+    COVERS --> TOPICS
+    TOPICS --> TOC[Topic-only local directory]
+    TOPICS --> STATIC[Text-only recommendation cards]
+    TOPICS --> HEALTH[Stress and condition cards]
 ```
 
 ### State and filtering
@@ -209,7 +257,8 @@ fish-website/
 │   ├── data/
 │   │   ├── fishData.json       # Local structured species records
 │   │   ├── fishImages.js       # Verified image paths by fish ID
-│   │   └── guideData.js        # Guide sections, recommendations and FAQ
+│   │   ├── guideData.js        # Guide sections, recommendations and FAQ
+│   │   └── guideImages.js      # Shared landing-card and topic-Hero covers
 │   ├── App.jsx                 # Page composition and navigation history
 │   ├── App.css                 # Responsive ocean-themed design system
 │   └── main.jsx                # React entry point
@@ -218,7 +267,7 @@ fish-website/
 └── vite.config.js
 ```
 
-Each component has one main responsibility. `FishDatabase` owns search/filter state, `FilterBar` renders filter controls, `FishCard` presents one record, and `FishDetail` presents the selected record. This separation makes data flow easy to trace in a classroom or code review.
+Each component has one main responsibility. `FishDatabase` owns search/filter state, `FilterBar` renders filter controls, `FishCard` presents one database record, and `FishDetail` presents the selected record. `BeginnerGuide` presents the guide landing page, `GuideTopicPage` renders only the selected guide topic, and `GuideNavigation` builds its topic-specific directory. This separation also prevents guide recommendations from being mistaken for complete `fishData.json` records.
 
 ## Visual system and accessibility
 
@@ -243,6 +292,8 @@ Accessibility considerations include:
 - Responsive one-, two- and three-column card layouts
 - A `prefers-reduced-motion` fallback
 - A global Back to Top control for long reading pages
+- Breadcrumbs that expose the parent guide and current child topic
+- Topic-local navigation for long-form guide pages
 
 ## Technical stack
 
@@ -303,7 +354,9 @@ Before using the project commercially or redistributing its imagery, review ever
 | --- | --- |
 | Source JSON contains repeated IDs | Deduplicate only for rendering; preserve the source file |
 | Files and data use inconsistent image naming | Maintain one explicit, verified `fishImages.js` map |
-| Long guide content is difficult to scan | Divide it into four topic pages with local section navigation |
+| Long guide content is difficult to scan | Divide it into four topic pages with local section navigation and scannable content cards |
+| Guide recommendations do not match complete species records | Keep them as text-only guide content and out of fish detail routing |
+| Guide landing cards and child Heroes need visual continuity | Share one cover mapping through `guideImages.js` |
 | A single-page app must support browser Back | Persist views in query parameters and the History API |
 | Some records may lack optional values | Use safe access, conditional rendering and neutral placeholders |
 | Beginners need readable implementation | Prefer React state and native array methods over abstractions |

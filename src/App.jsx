@@ -33,19 +33,14 @@ import BackToTop from "./components/BackToTop.jsx";
 // 图片修复：详情页与卡片共用同一份真实图片映射，避免两处路径不一致。
 import fishImages from "./data/fishImages.js";
 import fishData from "./data/fishData.json";
-import { guideRecommendationGroups } from "./data/guideData.js";
 
 // Import the shared CSS styles for the whole website.
 import "./App.css";
 
-// Include database fish and guide-only fish when restoring a detail URL.
-const allKnownFish = [
-  ...fishData,
-  ...guideRecommendationGroups.flatMap((group) => group.fish),
-];
-
 function findFishById(fishId) {
-  return allKnownFish.find((fish) => fish.id === fishId) || null;
+  // Only complete database records can open a detail page. Guide-only fish
+  // remain static recommendations because their full profiles are incomplete.
+  return fishData.find((fish) => fish.id === fishId) || null;
 }
 
 // Read the current view from the URL so refresh and browser Back both work.
@@ -239,7 +234,6 @@ function App() {
           <GuideTopicPage
             sectionId={currentPage.replace("guide-", "")}
             onShowPage={showPage}
-            onFishSelect={(fish) => openFishDetail(fish, currentPage)}
           />
         ) : (
           /* The project introduction is a standalone page. */

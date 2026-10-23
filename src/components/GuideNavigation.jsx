@@ -1,106 +1,71 @@
 import { useState } from "react";
-import { guideSections } from "../data/guideData.js";
 
-// GuideNavigation gives every guide page the same compact directory.
-function GuideNavigation({ currentSectionId, section, onShowPage }) {
+// GuideNavigation lists only the subsections that belong to the current topic.
+function GuideNavigation({ section, onShowPage }) {
   // Remember the last subsection selected so the directory can emphasize it.
   const [activeSubsection, setActiveSubsection] = useState("");
 
+  if (!section) {
+    return null;
+  }
+
+  function getLinkClass(sectionId) {
+    return activeSubsection === sectionId ? "active" : "";
+  }
+
   return (
     <aside className="guide-toc guide-page-navigation">
-      <nav aria-label="饲养指南目录">
-        <p>指南目录</p>
+      <nav aria-label={`${section.title}目录`}>
+        <p>本页目录</p>
 
         <button
           type="button"
-          className={!currentSectionId ? "active" : ""}
           onClick={() => onShowPage("guide")}
         >
-          指南首页
+          ← 返回指南首页
         </button>
 
+        <h2>{section.title}</h2>
+
         <ol>
-          {guideSections.map((guideSection) => {
-            const isCurrent = currentSectionId === guideSection.id;
+          {section.subsections.map((subsection, index) => {
+            const subsectionId = `guide-part-${index + 1}`;
 
             return (
-              <li key={guideSection.id}>
-                <button
-                  type="button"
-                  className={isCurrent ? "active" : ""}
-                  aria-current={isCurrent ? "page" : undefined}
-                  onClick={() => onShowPage(`guide-${guideSection.id}`)}
+              <li key={subsection.title}>
+                <a
+                  className={getLinkClass(subsectionId)}
+                  href={`#${subsectionId}`}
+                  onClick={() => setActiveSubsection(subsectionId)}
                 >
-                  {guideSection.title}
-                </button>
-
-                {isCurrent && section && (
-                  <ul className="guide-page-navigation__subsections">
-                    {section.subsections.map((subsection, index) => (
-                      <li key={subsection.title}>
-                        <a
-                          className={
-                            activeSubsection === `guide-part-${index + 1}`
-                              ? "active"
-                              : ""
-                          }
-                          href={`#guide-part-${index + 1}`}
-                          onClick={() =>
-                            setActiveSubsection(`guide-part-${index + 1}`)
-                          }
-                        >
-                          {subsection.title}
-                        </a>
-                      </li>
-                    ))}
-                    {section.id === "health" && (
-                      <>
-                        <li>
-                          <a
-                            className={
-                              activeSubsection === "common-conditions"
-                                ? "active"
-                                : ""
-                            }
-                            href="#common-conditions"
-                            onClick={() =>
-                              setActiveSubsection("common-conditions")
-                            }
-                          >
-                            常见问题与处理
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className={
-                              activeSubsection === "medication-guide"
-                                ? "active"
-                                : ""
-                            }
-                            href="#medication-guide"
-                            onClick={() =>
-                              setActiveSubsection("medication-guide")
-                            }
-                          >
-                            隔离检疫与用药
-                          </a>
-                        </li>
-                      </>
-                    )}
-                  </ul>
-                )}
+                  {subsection.title}
+                </a>
               </li>
             );
           })}
 
-          <li>
-            <button
-              type="button"
-              onClick={() => onShowPage("guide", "guide-faq")}
-            >
-              常见问题 FAQ
-            </button>
-          </li>
+          {section.id === "health" && (
+            <>
+              <li>
+                <a
+                  className={getLinkClass("common-conditions")}
+                  href="#common-conditions"
+                  onClick={() => setActiveSubsection("common-conditions")}
+                >
+                  九种常见问题与疾病处理
+                </a>
+              </li>
+              <li>
+                <a
+                  className={getLinkClass("medication-guide")}
+                  href="#medication-guide"
+                  onClick={() => setActiveSubsection("medication-guide")}
+                >
+                  隔离检疫与用药五原则
+                </a>
+              </li>
+            </>
+          )}
         </ol>
       </nav>
     </aside>

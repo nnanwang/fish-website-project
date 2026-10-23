@@ -1,45 +1,44 @@
 import {
-  guideRecommendationGroups,
   guideSections,
   healthConditions,
   medicationPrinciples,
   quarantineGuidance,
 } from "../data/guideData.js";
-import fishData from "../data/fishData.json";
-import fishImages from "../data/fishImages.js";
-import FishCard from "./FishCard.jsx";
+import guideCoverImages from "../data/guideImages.js";
 import GuideNavigation from "./GuideNavigation.jsx";
 
-const fishByScientificName = new Map(
-  fishData.map((fish) => [fish.scientificName, fish]),
-);
-
-const guideHeroFish = {
-  prepare: "macropodus-chinensis",
-  ecosystem: "channa-argus",
-  maintenance: "esox-reicherti",
-  health: "siniperca-chuatsi",
-};
+// These three subsections contain the complete recommendation lists from the
+// supplied guide document. They are independent from fishData.json.
+const recommendationTitles = new Set([
+  "最推荐",
+  "推荐，但有一定痛点",
+  "新手进阶",
+]);
 
 // GuideTopicPage reuses one layout for each of the four guide subjects.
-function GuideTopicPage({ sectionId, onShowPage, onFishSelect }) {
+function GuideTopicPage({ sectionId, onShowPage }) {
   const section = guideSections.find((item) => item.id === sectionId);
 
   if (!section) {
     return null;
   }
 
-  const heroFishId = guideHeroFish[section.id];
-
   return (
     <section className="beginner-guide guide-topic-page">
       <header className="page-hero guide-topic-hero">
         <img
-          src={fishImages[heroFishId]?.cover?.src}
+          src={guideCoverImages[section.id]}
           alt={`${section.title}主题图片`}
         />
         <div className="page-hero__overlay" />
         <div className="page-hero__content">
+          <nav className="page-hero__breadcrumb" aria-label="页面层级">
+            <button type="button" onClick={() => onShowPage("guide")}>
+              新手淡水鱼饲养指南
+            </button>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">{section.title}</span>
+          </nav>
           <p className="eyebrow">FRESHWATER CARE GUIDE · {section.number}</p>
           <h1>{section.title}</h1>
           <p>{section.summary}</p>
@@ -49,25 +48,22 @@ function GuideTopicPage({ sectionId, onShowPage, onFishSelect }) {
       <div className="guide-container">
         <div className="guide-layout">
           <GuideNavigation
-            currentSectionId={section.id}
             section={section}
             onShowPage={onShowPage}
           />
 
           <div className="guide-main">
             <article className="guide-card guide-topic-article">
-              <span className="guide-card__number" aria-hidden="true">
-                {section.number}
-              </span>
-              <h2>{section.title}</h2>
-              <p>{section.summary}</p>
-
               {section.subsections.map((subsection, subsectionIndex) => {
-                const recommendationGroup = guideRecommendationGroups.find(
-                  (group) => group.title === subsection.title,
+                const isRecommendationGroup = recommendationTitles.has(
+                  subsection.title,
                 );
                 const isSelectionStandards =
                   subsection.title === "选鱼四条标准";
+                const isDifficultyScale =
+                  subsection.title === "筛选逻辑与难度分级";
+                const isStressSignals =
+                  subsection.title === "应激的八个可观察信号";
 
                 return (
                   <section
@@ -100,38 +96,62 @@ function GuideTopicPage({ sectionId, onShowPage, onFishSelect }) {
                           );
                         })}
                       </div>
-                    ) : recommendationGroup ? (
-                      <div className="guide-recommendation-group">
-                        <p>{recommendationGroup.description}</p>
+                    ) : isDifficultyScale ? (
+                      <div className="difficulty-list">
+                        {subsection.items.map((item) => {
+                          const [label, ...description] = item.split("：");
+                          const level = Number.parseInt(label, 10);
 
-                        <div className="fish-grid guide-fish-grid">
-                          {recommendationGroup.fish.map((guideFish) => {
-                            const databaseFish = fishByScientificName.get(
-                              guideFish.scientificName,
-                            );
-                            const displayedFish = databaseFish || guideFish;
+                          return (
+                            <article className="difficulty-item" key={item}>
+                              <div
+                                className="difficulty-stars"
+                                aria-label={`${level} 星难度`}
+                              >
+                                {Array.from({ length: 5 }, (_, index) => (
+                                  <span
+                                    className={
+                                      index < level
+                                        ? "difficulty-star active"
+                                        : "difficulty-star"
+                                    }
+                                    aria-hidden="true"
+                                    key={index}
+                                  >
+                                    {index < level ? "★" : "☆"}
+                                  </span>
+                                ))}
+                              </div>
+                              <p>{description.join("：")}</p>
+                            </article>
+                          );
+                        })}
+                      </div>
+                    ) : isStressSignals ? (
+                      <div className="stress-signal-grid">
+                        {subsection.items.map((item) => {
+                          const [signal, ...description] = item.split("：");
 
-                            return (
-                              <FishCard
-                                key={displayedFish.id}
-                                fish={displayedFish}
-                                imageSrc={
-                                  fishImages[displayedFish.id]?.cover?.src
-                                }
-                                onSelect={onFishSelect}
-                              />
-                            );
-                          })}
-                        </div>
+                          return (
+                            <article className="stress-signal-card" key={item}>
+                              <h4>{signal}</h4>
+                              <p>{description.join("：")}</p>
+                            </article>
+                          );
+                        })}
+                      </div>
+                    ) : isRecommendationGroup ? (
+                      <div className="guide-species-grid">
+                        {subsection.items.map((item) => {
+                          const [name, ...details] = item.split("：");
 
-                        <details className="guide-complete-list">
-                          <summary>查看这一分级的完整文字参数</summary>
-                          <ol>
-                            {subsection.items.map((item) => (
-                              <li key={item}>{item}</li>
-                            ))}
-                          </ol>
-                        </details>
+                          return (
+                            <article className="guide-species-card" key={item}>
+                              <h4>{name}</h4>
+                              <p>{details.join("：")}</p>
+                            </article>
+                          );
+                        })}
                       </div>
                     ) : (
                       subsection.items &&
