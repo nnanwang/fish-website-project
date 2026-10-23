@@ -100,8 +100,8 @@ Visitors can describe an observed fish through body shape, primary colour, patte
 
 Every result card can open a shared detail view. The detail page combines taxonomy, identification, habitat information and a local photo gallery while preserving the visitor's previous page in browser history.
 
-![Northern Snakehead profile showing a cover image, taxonomy and gallery introduction](docs/images/detail.png)
-
+![alt text](image-6.png)
+![alt text](image-7.png)
 ### 4. Structured freshwater care guide
 
 The guide is divided into four focused routes rather than one oversized article:
@@ -139,8 +139,7 @@ The page keeps the long-form technical guidance readable through short sections,
 
 The maintenance route focuses on recurring care: target water parameters, testing frequency, the water-change workflow and six common beginner mistakes. The left directory contains only these subsections, so selecting this guide card never exposes unrelated topics on the same page.
 
-![Routine maintenance guide topic page with a matching Hero cover and focused maintenance sections](docs/images/guide-maintenance.png)
-
+![alt text](image-5.png)
 The responsive reading layout pairs a compact sticky directory with a wider article column on large screens, then simplifies the layout for narrower viewports. Previous- and next-topic links let readers continue through the guide without returning to the landing page first.
 
 #### Health topic page
@@ -148,7 +147,6 @@ The responsive reading layout pairs a compact sticky directory with a wider arti
 The health route turns the eight observable stress signals into blue cards with aqua accents, making individual signs easier to scan. Common conditions use light cards with prominent condition names and a responsive three-column layout that reduces to two and then one column as the viewport narrows.
 
 ![alt text](image-1.png)
-![Fish health guide topic page with stress-signal cards and a responsive common-condition grid](docs/images/guide-health.png)
 
 Only content related to the selected topic is rendered on each child page. The complete FAQ is kept below the guide landing page's “还有具体问题？” section, while the health topic focuses on observation, diagnosis order, common conditions and medication principles.
 
